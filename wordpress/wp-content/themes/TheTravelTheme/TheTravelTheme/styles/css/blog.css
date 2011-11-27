@@ -1,0 +1,260 @@
+/* Blog Index & main_wrap Post Body
+---------------------------------------------------------- */
+.entry {
+	clear:both;
+	overflow:hidden;
+}
+.entry .entry_title {
+	margin-bottom:10px;
+}
+.entry .entry_title a {
+	color:#333;
+}
+.entry_video .video_frame {
+	border:1px solid #eee;
+	border-bottom:0px;
+}
+.entry_video object{
+	display:block;
+}
+.entry_image {
+	margin:0px;
+}
+.entry_image .image_shadow {
+	width:100%;
+}
+.entry_left .entry_image {
+	float:left;
+	margin-top:5px;
+	margin-right:20px;
+}
+.entry_left .entry_info {
+	overflow:hidden;
+}
+.entry .entry_meta {
+	border-top:1px solid #f0f0f0;
+	border-bottom:1px solid #f0f0f0;
+	line-height:28px;
+	margin-bottom:10px;
+	position:relative;
+}
+.entry .entry_meta .separater {
+	padding: 0 4px;
+}
+.entry .entry_meta .comments {
+	float:right;
+}
+.read_more_link {
+	position:relative;
+	top:-5px;
+}
+#feature .entry_meta .separater{
+	padding: 0 0.6em;
+}
+#feature .entry_meta .comments {
+	position:absolute;
+	right: 0;
+}
+#feature a {
+	color:#ccc;
+}
+.entry.content {
+	margin-bottom:40px;
+}
+.entry.content footer {
+	margin-top:80px;
+	margin-bottom:-40px;
+}
+#author .gravatar {
+	float:right;
+	margin:0 0 0 20px;
+}
+/* WP Pagenavi
+---------------------------------------------------------- */
+.wp-pagenavi{
+	clear:both;
+	padding-top:10px;
+	height:40px;
+	text-align:left;
+}
+.wp-pagenavi a, .wp-pagenavi a:link,.wp-pagenavi a:visited,.wp-pagenavi a:active,.wp-pagenavi span.current,.wp-pagenavi span.extend {
+	margin-right:5px;
+	padding:4px 6px;
+	text-shadow:1px 1px 1px #ddd;
+	color:#666;
+}
+.wp-pagenavi span.current {
+	color:#333;
+	font-size:16px;
+}
+.wp-pagenavi a:hover {
+	color:#333;
+	font-size:14px;
+}
+/* About the Author
+---------------------------------------------------------- */
+#about_the_author {
+	margin-bottom:40px;
+}
+#about_the_author .author_content {
+	padding:20px;
+	border-top:1px solid #eeeeee;
+	border-bottom:1px solid #eeeeee;
+	background-color:rgba(0, 0, 0, .01);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#02000000',EndColorStr='#02000000'); 
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#02000000',EndColorStr='#02000000')";
+}
+.author_info {
+	overflow:hidden;
+	padding-left:15px;
+	position:relative;
+}
+.author_name {
+	font-size:1.2em;
+}
+.author_desc {
+	margin-bottom:0;
+}
+/* Popular and Related Posts
+---------------------------------------------------------- */
+.related_popular_wrap {
+	margin-bottom:40px;
+}
+.related_popular_wrap .posts_list .thumbnail {
+	margin-right:15px;
+}
+.related_popular_wrap li {
+	margin:0;
+}
+/* Related Posts
+---------------------------------------------------------- */
+.related_posts_wrap {
+	margin-bottom:40px;
+	overflow:hidden;
+}
+.related_posts_list {
+	border-top:1px solid #eee;
+	padding-top:20px;
+	list-style:none outside none;
+	margin:0;
+	margin-right:-21px;
+}
+.related_posts_list li {
+	float:left;
+	width:196px;
+	margin:0 21px 0 0;
+}
+.related_posts_list .thumbnail{
+	border:1px solid #EEEEEE;
+	display:block;
+	line-height:100%;
+	margin-bottom:10px;
+}
+.related_posts_list .thumbnail img{
+	border:1px solid #FFFFFF;
+	display:block;
+}
+.related_posts_list time {
+	display:block;
+}
+/* Entry previous & next navigation
+---------------------------------------------------------- */
+.entry_navigation {
+	overflow: hidden;
+	clear: both;
+	margin-bottom:40px;
+}
+.entry_navigation .nav-previous {
+	float: left;
+	width: 50%;
+}
+.entry_navigation .nav-next {
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+/* Threaded Comments
+---------------------------------------------------------- */
+#comments ul {
+	list-style-type:none;
+}
+.commentlist {
+	margin: 0;
+}
+.commentlist ul {
+	margin-left:20px;
+}
+.commentlist li {
+	margin:0;
+	border-top:1px solid #EEEEEE;	
+}
+.commentlist li .comment_wrap {
+	overflow:visible;
+	padding:20px 0;
+	position:relative;
+}
+.gravatar {
+	float:left;
+	height:70px;
+	border:1px solid #eeeeee;
+}
+.gravatar img{
+	padding:4px;
+	height:60px;
+	width:60px;
+	border:1px solid #FFFFFF;
+	background-color:#F9F9F9;
+}
+.comment_content {
+	min-height:80px; 
+	padding-left:20px;
+	position:relative;
+	overflow:hidden;
+}
+.commentlist li ul li {
+	margin-left: 20px;
+}
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.comment_author {
+	font-size:18px;
+	font-style: normal;
+}
+.comment_author span {
+	display:none;
+}
+.comment_time {
+	float:right;
+}
+.comment_text {
+	clear:both;
+	padding-top:5px;
+	overflow:hidden;
+}
+.comments_navigation {
+	margin-top:20px;
+	clear:both;
+	overflow:hidden;
+}
+.comments_navigation .nav_previous {
+	float:left;
+}
+.comments_navigation .nav_next {
+	float:right;
+}
+#respond {
+	margin-top:20px;
+}
+#respond #comment{
+	width:98%;
+}
+#comments label {
+	padding-left: 6px;
+	opacity: 0.75;
+}
+.cancel_comment_reply {
+	margin-bottom:6px;
+}

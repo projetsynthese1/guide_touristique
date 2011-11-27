@@ -1,0 +1,128 @@
+.portfolios ul {
+	letter-spacing: -4px; /* remvoe the gap */
+	word-spacing: -4px; /* remvoe the gap */
+	overflow:hidden;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	display:block;
+}
+.portfolios ul li {
+	letter-spacing: normal;  /* remvoe the gap */
+	word-spacing: normal;  /* remvoe the gap */
+	display: -moz-inline-box; /* mozilla only */
+    display: inline-block; /* for browsers that support display:inline-block*/
+	vertical-align: top;
+	overflow:hidden;
+	padding:0;
+	margin:10px 0 50px 0;
+	position:relative;
+}
+.portfolio_title {
+	line-height:1em;
+}
+.portfolio_desc {
+	margin-top:0.8em;
+}
+.portfolio_more_button {
+	margin-top:0.8em;
+}
+/* Portfolio Sortable
+---------------------------------------------------------- */
+.portfolios.sortable header {
+	font-size:1.2em;
+	line-height:1.8em;
+	margin-bottom:10px;
+	clear:both;
+	overflow:hidden;
+}
+.portfolios.sortable header span {
+	display:block;
+	float:left;
+	margin-right:5px;
+}
+#page .portfolios.sortable header a {
+	display:block;
+	float:left;
+	padding:0 14px;
+	margin-right:10px;
+	background-color:#eee;
+	color:#666;
+}
+/* Portfolio One Column
+---------------------------------------------------------- */
+.portfolios .portfolio_one_column {
+	clear:left;
+}
+.portfolios .portfolio_one_column li {
+	display:block;
+}
+.portfolio_one_column .portfolio_image{
+	float:left;
+	width:602px;
+}
+.portfolio_one_column .portfolio_image .image_frame{
+	width:600px;
+}
+.portfolio_one_column .portfolio_image .image_shadow{
+	width:600px;
+}
+.portfolio_one_column .portfolio_details {
+	float:left;
+	width:330px;
+	padding-left:28px;
+}
+.portfolio_one_column .portfolio_title {
+	margin-top:0.7em;
+}
+/* Portfolio Two Columns
+---------------------------------------------------------- */
+.portfolios .portfolio_two_columns {
+	margin-right:-56px;
+}
+.portfolio_two_columns li {
+	width:452px;
+}
+.portfolio_two_columns .portfolio_image .image_frame{
+	width:450px;
+}
+.portfolio_two_columns .portfolio_image .image_shadow{
+	width:450px;
+}
+ul.portfolio_two_columns li {
+	margin-right:56px;
+}
+/* Portfolio Three Columns
+---------------------------------------------------------- */
+.portfolios .portfolio_three_columns {
+	margin-right:-39px;
+}
+.portfolio_three_columns li {
+	width:294px;
+}
+.portfolio_three_columns .portfolio_image .image_frame{
+	width:292px;
+}
+.portfolio_three_columns .portfolio_image .image_shadow{
+	width:292px;
+}
+ul.portfolio_three_columns li {
+	margin-right:39px;
+}
+/* Portfolio Four Columns
+---------------------------------------------------------- */
+.portfolios .portfolio_four_columns {
+	margin-right:-28px;
+}
+.portfolio_four_columns li {
+	width:219px;
+}
+.portfolio_four_columns .portfolio_image .image_frame{
+	width:217px;
+}
+.portfolio_four_columns .portfolio_image .image_shadow{
+	width:217px;
+}
+ul.portfolio_four_columns li {
+	margin-right:28px;
+}

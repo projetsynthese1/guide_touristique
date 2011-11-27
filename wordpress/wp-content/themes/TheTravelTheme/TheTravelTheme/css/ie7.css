@@ -1,0 +1,55 @@
+#main {
+    zoom:1;
+}
+.divider {
+	height:0px;	
+}
+blockquote p {
+	zoom:1;
+}
+html .jqueryslidemenu{height: 1%;} /*Holly Hack for IE7 and below*/
+.jqueryslidemenu ul li a:hover, .jqueryslidemenu .current_page_parent, .jqueryslidemenu .current_page_item, .jqueryslidemenu ul li:hover a{ background-image:none; }
+#breadcrumbs{ zoom:1; }
+.right_sidebar #sidebar_box_2{ height:100px; }
+.image_icon_doc,.image_icon_play,.image_icon_zoom,.lightbox {
+	cursor: pointer;
+}
+.entry .entry_meta {
+	zoom:1;
+}
+.portfolios ul li {
+	zoom:1;
+	display: inline;
+}
+#searchform button {
+	margin-left:5px;
+}
+.widget_recent_comments ul li span {
+	zoom:1;
+}
+#footer .flickr_wrap {
+	zoom:1;
+}
+#footer .widget_contact_form .text_input, #footer .widget_contact_form .textarea{
+	color:#666;
+}
+.toggle_content {
+	position:relative;
+	zoom:1; 
+}
+.code,.pre {
+	word-wrap: break-word;
+}
+.comment_author {
+	float:left;
+}
+.comment_meta{
+	clear:both;
+}
+div.anythingSlider .thumbNav a {
+	 text-indent:0; line-height:0; font-size:0; overflow:hidden;
+}
+div.anythingSlider .arrow,div.anythingSlider .arrow a {
+	z-index:101;
+	zoom:1;
+}

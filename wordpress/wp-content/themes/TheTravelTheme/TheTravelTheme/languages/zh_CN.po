@@ -1,0 +1,366 @@
+# Chinese translation for WordPress Striking Theme.
+# Copyright (C) 2010 WordPress contributors.
+# This file is distributed under the same license as the WordPress package.
+# KaptinLin <Kaptinlin@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordpress Striking Theme Simplified Chinese Translation\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2010-11-18 07:18+0800\n"
+"Last-Translator: kaptinlin <kaptinlin@gmail.com>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+# <form method="get" id="searchform" action="<?php bloginfo('url'); ?>">
+# <input type="text" class="text_input" value="<?php _e('Search..', 'striking_front');?>" name="s" id="s" onfocus="if(this.value == '<?php _e('Search..', 'striking_front');?>') {this.value = '';}" onblur="if (this.value == '') {this.value = '<?php _e('Search..', 'striking_front');?>';}" />
+# <button type="submit" class="button white"><span><?php _e('Search', 'striking_front');?></span></button>
+msgid "Search.."
+msgstr "搜索.."
+# <?php if ( is_user_logged_in() ) : ?>
+# <p class="logged"><?php printf( __( 'Logged in as <a href="%1$s">%2$s</a>. <a href="%3$s" title="Log out of this account">Log out?</a>','striking_front'), admin_url( 'profile.php' ), $user_identity, wp_logout_url( get_permalink( $post_id )  ) )?></p>
+# <?php else : ?>
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr "以 <a href=\"%1$s\">%2$s</a> 的身份登录。<a href=\"%3$s\" title=\"登出这个帐号\">登出?</a>"
+# <?php if ( get_option('comment_registration') && !is_user_logged_in() ) : ?>
+# <p><?php printf(__('You must be <a href="%s">logged in</a> to post a comment','striking_front'),wp_login_url( get_permalink() )); ?></p>
+# <?php else : ?>
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment"
+msgstr "要发表评论，您必须先<a href=\"%s\">登录</a>。"
+# <div id="respond">
+# <h3><?php comment_form_title( __('Leave a Reply','striking_front'), __('Leave a Reply to %s','striking_front') ); ?></h3>
+# <div class="cancel_comment_reply">
+msgid "Leave a Reply to %s"
+msgstr "对 %s 发表评论"
+# <div id="respond">
+# <h3><?php comment_form_title( __('Leave a Reply','striking_front'), __('Leave a Reply to %s','striking_front') ); ?></h3>
+# <div class="cancel_comment_reply">
+msgid "Leave a Reply"
+msgstr "发表评论"
+# <div class="comment_meta">
+# <?php printf( '<cite class="comment_author">%s</cite>', get_comment_author_link()) ?><?php edit_comment_link(__('(Edit)', 'striking_front' ),'  ','') ?>
+# <time class="comment_time"><?php echo get_comment_date(); ?></time>
+msgid "(Edit)"
+msgstr "(编辑)"
+# <p><textarea class="textarea" name="comment" id="comment" cols="70" rows="10" tabindex="4"></textarea></p>
+# <p><a class="button medium white" href="#" onclick="jQuery('#commentform').submit();return false;"><span><?php _e('Post Comment','striking_front');?></span></a><?php comment_id_fields(); ?></p>
+# <p><?php do_action('comment_form', $post->ID); ?></p>
+msgid "Post Comment"
+msgstr "发表评论"
+# <p><input type="text" name="url" class="text_input" id="url" value="<?php echo $comment_author_url; ?>" size="22" tabindex="3" />
+# <label for="url"><?php _e('Website','striking_front'); ?></label></p>
+#
+msgid "Website"
+msgstr "网站"
+# <p><input type="text" name="email" class="text_input" id="email" value="<?php echo $comment_author_email; ?>" size="22" tabindex="2" />
+# <label for="email"><?php _e('Email','striking_front');  if ($req) echo " *"; ?></label></p>
+#
+msgid "Email"
+msgstr "邮箱"
+# <p><input type="text" name="author" class="text_input" id="author" value="<?php echo $comment_author; ?>" size="22" tabindex="1"  />
+# <label for="author"><?php _e('Name','striking_front');  if ($req) echo " *"; ?></label></p>
+#
+msgid "Name"
+msgstr "名称"
+# <?php if ( post_password_required() ) : ?>
+# <p class="nopassword"><?php _e( 'This post is password protected. Enter the password to view any comments.', 'striking_front' ); ?></p>
+# </section><!-- #comments -->
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "本文章受密码保护。要查看评论，请输入密码。"
+# <?php if ($comment->comment_approved == '0') : ?>
+# <span class="unapproved"><?php _e('Your comment is awaiting moderation.','striking_front') ?></span>
+# <?php endif; ?>
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正在等待审核。"
+# if(empty($success)){
+# $success = __('Your message was successfully sent. <strong>Thank You!</strong>','striking_front');
+# }
+msgid "Your message was successfully sent. <strong>Thank You!</strong>"
+msgstr "你的信息成功发送. <strong>谢谢!</strong>"
+# ?>
+# <a class="read_more_link" href="<?php the_permalink(); ?>"><?php echo __('Read more &raquo;','striking_front')?></a>
+# <?php endif; ?>
+msgid "Read more &raquo;"
+msgstr "查看更多 »"
+# $more = 0;
+# the_content(__("Read More", 'striking_front'),false);
+# else:
+msgid "Read More"
+msgstr "查看更多"
+# $output .= '<span>'.__('Show:','striking_front').'</span>';
+# $output .= '<a data-value="all" href="#">'.__('All','striking_front').'</a>';
+# $terms = array();
+msgid "All"
+msgstr "全部"
+# $output .= '<header class="sort_by_cat">';
+# $output .= '<span>'.__('Show:','striking_front').'</span>';
+# $output .= '<a data-value="all" href="#">'.__('All','striking_front').'</a>';
+msgid "Show:"
+msgstr "显示:"
+# $uploads = wp_upload_dir();
+# $noflash = __('You need to <a href="http://www.adobe.com/products/flashplayer/" target="_blank">upgrade your Flash Player</a> to version 10 or newer.','striking_front');
+# $output = <<<HTML
+msgid "You need to <a href=\"http://www.adobe.com/products/flashplayer/\" target=\"_blank\">upgrade your Flash Player</a> to version 10 or newer."
+msgstr "你需要<a href=\"http://www.adobe.com/products/flashplayer/\" target=\"_blank\">更新你的 Flash Player</a> 到版本10 或最新."
+# $related_post_found = true;
+# $output .= '<h3>'.__('Related Posts','striking_front').'</h3>';
+# $output .= '<section class="related_posts_wrap">';
+msgid "Related Posts"
+msgstr "相关文章"
+# if (is_search()) {
+# $title = __('Search','striking_front');
+# $text = sprintf(__('Search Results for: ‘%s’','striking_front'),stripslashes( strip_tags( get_search_query() ) ));
+msgid "Search"
+msgstr "搜索"
+# $title = __('404 - Not Found','striking_front');
+# $text = __("Looks like the page you're looking for isn't here anymore. Try using the search box or sitemap below.",'striking_front');
+# }
+msgid "Looks like the page you're looking for isn't here anymore. Try using the search box or sitemap below."
+msgstr "你要查看的页面不存在. 请尝试使用下面的搜索框或者网站地图."
+# if (is_404()) {
+# $title = __('404 - Not Found','striking_front');
+# $text = __("Looks like the page you're looking for isn't here anymore. Try using the search box or sitemap below.",'striking_front');
+msgid "404 - Not Found"
+msgstr "404 - 未找到页面"
+# }elseif(isset($_GET['paged']) && !empty($_GET['paged'])) {
+# $text = __('Blog Archives','striking_front');
+# }elseif(is_tax()){
+msgid "Blog Archives"
+msgstr "博客归档"
+# if(is_category()){
+# $text = sprintf(__('Category Archive for: ‘%s’','striking_front'),single_cat_title('',false));
+# }elseif(is_tag()){
+msgid "Category Archive for: ‘%s’"
+msgstr "分类目录归档: ‘%s’"
+# if (is_archive()){
+# $title = __('Archives','striking_front');
+# if(is_category()){
+msgid "Archives"
+msgstr "归档"
+# if ( $paged >= 2 || $page >= 2 )
+# echo ' | ' . sprintf( __( 'Page %s', 'striking_front' ), max( $paged, $page ) );
+# }
+msgid "Page %s"
+msgstr "第 %s 页"
+# <section id="about_the_author">
+# <h3><?php _e('About the author','striking_front');?></h3>
+# <div class="author_content">
+msgid "About the author"
+msgstr "关于作者"
+# extract( $args );
+# $title = apply_filters('widget_title', empty($instance['title']) ? __('Contact Us', 'striking_front') : $instance['title'], $instance, $this->id_base);
+# $color = $instance['color'];
+msgid "Contact Us"
+msgstr "联系我们"
+# extract( $args );
+# $title = apply_filters('widget_title', empty($instance['title']) ? __('Email Us', 'striking_front') : $instance['title'], $instance, $this->id_base);
+# $email= $instance['email'];
+msgid "Email Us"
+msgstr "Email 我们"
+#
+# $title = apply_filters('widget_title', empty($instance['title']) ? __('Recent Posts', 'striking_front') : $instance['title'], $instance, $this->id_base);
+# if ( !$number = (int) $instance['number'] )
+msgid "Recent Posts"
+msgstr "最近文章"
+# extract( $args );
+# $title = apply_filters('widget_title', empty($instance['title']) ? __('Recent Tweets', 'striking_front') : $instance['title'], $instance, $this->id_base);
+# $username= $instance['username'];
+msgid "Recent Tweets"
+msgstr "最近Tweets"
+# extract( $args );
+# $title = apply_filters('widget_title', empty($instance['title']) ? __('Photos on flickr', 'striking_front') : $instance['title'], $instance, $this->id_base);
+# $flickr_id = $instance['flickr_id'];
+msgid "Photos on flickr"
+msgstr "flickr上的照片"
+#
+# $title = apply_filters('widget_title', empty($instance['title']) ? __('Popular Posts', 'striking_front') : $instance['title'], $instance, $this->id_base);
+# if ( !$number = (int) $instance['number'] )
+msgid "Popular Posts"
+msgstr "热门文章"
+# 'prev_text' => __('&laquo;','striking_front'),
+# 'dotright_text' => __('...','striking_front'),
+# 'dotleft_text' => __('...','striking_front'),
+msgid "..."
+msgstr "..."
+# 'next_text' => __('&raquo;','striking_front'),
+# 'prev_text' => __('&laquo;','striking_front'),
+# 'dotright_text' => __('...','striking_front'),
+msgid "&laquo;"
+msgstr "«"
+# 'last_text' => __('Last &raquo;','striking_front'),
+# 'next_text' => __('&raquo;','striking_front'),
+# 'prev_text' => __('&laquo;','striking_front'),
+msgid "&raquo;"
+msgstr "»"
+# 'first_text' => __('&laquo; First','striking_front'),
+# 'last_text' => __('Last &raquo;','striking_front'),
+# 'next_text' => __('&raquo;','striking_front'),
+msgid "Last &raquo;"
+msgstr "最后一页 »"
+# 'page_text' => '%PAGE_NUMBER%',
+# 'first_text' => __('&laquo; First','striking_front'),
+# 'last_text' => __('Last &raquo;','striking_front'),
+msgid "&laquo; First"
+msgstr "« 第一页"
+# $output = $homelink . ' ' . $separator . ' ';
+# $output .= bold( __( 'Page Not Found', 'striking_front' ), $r['bold'] );
+#
+msgid "Page Not Found"
+msgstr "未找到页面"
+# $output = $homelink . ' ' . $separator . ' ';
+# $output .= bold( sprintf(__( 'Search Results for: ‘%s’', 'striking_front' ),stripslashes( strip_tags( get_search_query() ) ) ), $r['bold'] );
+#
+msgid "Search Results for: ‘%s’"
+msgstr "‘%s’ 的搜索结果"
+# }
+# $output .= bold( sprintf(__('Author Archive for: ‘%s’','striking_front'),$curauth->nickname), $r['bold'] );
+# }
+msgid "Author Archive for: ‘%s’"
+msgstr "作者归档: ‘%s’"
+# elseif ( is_year() )
+# $output .= bold( sprintf(__('Yearly Archive for: ‘%s’','striking_front'),get_the_time('Y')), $r['bold'] );
+#
+msgid "Yearly Archive for: ‘%s’"
+msgstr "年归档: ‘%s’"
+# elseif ( is_month() )
+# $output .= bold( sprintf(__('Monthly Archive for: ‘%s’','striking_front'),get_the_time('F, Y')), $r['bold'] );
+#
+msgid "Monthly Archive for: ‘%s’"
+msgstr "月归档: ‘%s’"
+# if ( is_day() )
+# $output .= bold( sprintf(__('Daily Archive for: ‘%s’','striking_front'),get_the_time('F jS, Y')), $r['bold'] );
+#
+msgid "Daily Archive for: ‘%s’"
+msgstr "日归档: ‘%s’"
+# $term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) );
+# $text = sprintf(__('Archives for: ‘%s’','striking_front'),$term->name);
+#
+msgid "Archives for: ‘%s’"
+msgstr "归档: ‘%s’"
+# } elseif ( is_tag() ){
+# $output .= bold( sprintf(__('Tag Archives for: ‘%s’','striking_front'),single_tag_title('',false)), $r['bold'] );
+#
+msgid "Tag Archives for: ‘%s’"
+msgstr "标签归档: ‘%s’"
+# 'bold' => false,
+# 'blog' => __( 'Blog', 'striking_front' ),
+# 'echo' => true
+msgid "Blog"
+msgstr "Blog"
+# 'title' => __( 'You are here: ', 'striking_front' ),
+# 'home' => __( 'Home', 'striking_front' ),
+# 'sep' => '&raquo;',
+msgid "Home"
+msgstr "首页"
+# 'suffix' => '</p>',
+# 'title' => __( 'You are here: ', 'striking_front' ),
+# 'home' => __( 'Home', 'striking_front' ),
+msgid "You are here: "
+msgstr "当前位置: "
+# <?php edit_post_link( __( 'Edit', 'striking_front' ), '<span class="separater">|</span> <span class="edit-link">', '</span>' ); ?>
+# <span class="comments"><?php comments_popup_link(__('No Comments','striking_front'), __('1 Comment','striking_front'), __('% Comments','striking_front')); ?></span>
+# </div>
+msgid "% Comments"
+msgstr "% 条评论"
+# <?php edit_post_link( __( 'Edit', 'striking_front' ), '<span class="separater">|</span> <span class="edit-link">', '</span>' ); ?>
+# <span class="comments"><?php comments_popup_link(__('No Comments','striking_front'), __('1 Comment','striking_front'), __('% Comments','striking_front')); ?></span>
+# </div>
+msgid "1 Comment"
+msgstr "1 条评论"
+# <?php edit_post_link( __( 'Edit', 'striking_front' ), '<span class="separater">|</span> <span class="edit-link">', '</span>' ); ?>
+# <span class="comments"><?php comments_popup_link(__('No Comments','striking_front'), __('1 Comment','striking_front'), __('% Comments','striking_front')); ?></span>
+# </div>
+msgid "No Comments"
+msgstr "评论暂缺"
+# <div class="entry_meta">
+# <span class="categories"><?php _e('Posted in: ', 'striking_front');  the_category(', '); ?></span>
+# <span class="separater">|</span>
+msgid "Posted in: "
+msgstr "发表在: "
+# <?php while ($archive_query->have_posts()) : $archive_query->the_post(); ?>
+# <li><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf( __("Permanent Link to %s", 'striking_front'), get_the_title() ); ?>"><?php the_title(); ?></a> (<?php comments_number('0', '1', '%'); ?>)</li>
+# <?php endwhile; ?>
+msgid "Permanent Link to %s"
+msgstr "链向 %s 的固定链接 "
+# <ul>
+# <?php wp_list_categories( array( 'exclude'=> implode(",",$exclude_cats), 'feed' => __( 'RSS', 'striking_front' ), 'show_count' => true, 'use_desc_for_title' => false, 'title_li' => false ) ); ?>
+# </ul>
+msgid "RSS"
+msgstr "RSS"
+# ?>
+# <h2><?php _e( 'Blog Posts','striking_front' ); ?></h2>
+# <ul>
+msgid "Blog Posts"
+msgstr "Blog 文章"
+# ?>
+# <h2><?php _e( 'Category Archives','striking_front'); ?></h2>
+# <ul>
+msgid "Category Archives"
+msgstr "分类目录归档"
+# </ul>
+# <div class="divider top"><a href="#"><?php _e('Top','striking_front');?></a></div>
+#
+msgid "Top"
+msgstr "Top"
+# <div class="content">
+# <h2><?php _e('Pages','striking_front');?></h2>
+# <ul>
+msgid "Pages"
+msgstr "页面"
+# <?php the_content(); ?>
+# <?php edit_post_link(__('Edit', 'striking_front'),'<footer><p class="entry_edit">','</p></footer>'); ?>
+# <div class="clearboth"></div>
+msgid "Edit"
+msgstr "编辑"
+# printf( _n( 'One Response to %2$s', '%1$s Responses to %2$s', get_comments_number(), 'striking_front' ),
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] "%1$s 则回应给 %2$s"
+msgstr[1] "%1$s 则回应给 %2$s"
+# twitter widget
+msgid "about %d seconds ago"
+msgstr "大约 %d 秒前"
+# twitter widget
+msgid "about a minute ago"
+msgstr "大约 1 分钟前"
+# twitter widget
+msgid "about %d minutes ago"
+msgstr "大约 %d 分钟前"
+# twitter widget
+msgid "about an hour ago"
+msgstr "大约 1 小时前"
+# twitter widget
+msgid "about %d hours ago"
+msgstr "大约 %d 小时前"
+# twitter widget
+msgid "about a day ago"
+msgstr "大约 1 天前"
+# twitter widget
+msgid "about %d days ago"
+msgstr "大约 %d 天前"
+# twitter widget
+msgid "view tweet on twitter"
+msgstr "在 twitter 上查看"
+# <label for="contact_name"><?php _e('Name *', 'striking_front'); ?></label>
+msgid "Name *"
+msgstr "名称 *"
+# <label for="contact_email"><?php _e('Email *', 'striking_front'); ?></label>
+msgid "Email *"
+msgstr "邮箱 *"
+# <button type="submit" class="button white"><span><?php _e('Submit', 'striking_front'); ?></span></button>
+msgid "Submit"
+msgstr "提交"
+# Previous post link
+msgid "Previous post link"
+msgstr "下一篇文章"
+# Next post link
+msgid "Next post link"
+msgstr "上一篇文章"
+# Previous portfolio link
+msgid "Previous portfolio link"
+msgstr "上一个作品"
+# Next portfolio link
+msgid "Next portfolio link"
+msgstr "下一个作品"

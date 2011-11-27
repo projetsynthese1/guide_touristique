@@ -1,0 +1,33 @@
+.divider {
+	position:relative;
+	clear:both;
+	display:block;
+	padding-top:20px;
+	margin-bottom:40px;
+	border-bottom:1px solid #EEEEEE;
+}
+.divider.top a {
+	position:absolute;
+	right:0;
+	top:10px;
+	width:20px;
+	background:none repeat scroll 0 0 #FFFFFF;
+	font-size:10px;
+	padding:0 2px;
+	text-align:right;
+	text-decoration:none;
+	color:#ccc;
+}
+.divider_padding {
+	position:relative;
+	clear:both;
+	display:block;
+	padding-top:30px;
+}
+.divider_line {
+	position:relative;
+	clear:both;
+	display:block;
+	border-bottom:1px solid #EEEEEE;
+	margin-bottom:10px;
+}

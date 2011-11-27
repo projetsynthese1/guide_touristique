@@ -1,0 +1,4725 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eshop\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-02-05 13:00-0000\n"
+"PO-Revision-Date: 2009-06-11 09:27+0100\n"
+"Last-Translator: Mat_ <contact@kune.fr>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SearchPath-0: C:\\Documents and Settings\\Richard\\My Documents\\Subversion\\eshop\\trunk\n"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:3
+#: Documents\Subversion\eshop\trunk/cart.php:3
+#: Documents\Subversion\eshop\trunk/checkout.php:3
+#: Documents\Subversion\eshop\trunk/eshop.php:3
+#: Documents\Subversion\eshop\trunk/eshop_about.php:3
+#: Documents\Subversion\eshop\trunk/eshop_base.php:3
+#: Documents\Subversion\eshop\trunk/eshop_base_settings.php:3
+msgid "Direct File Access Prohibited"
+msgstr "Acc&egrave;s direct au fichier interdit"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:28
+msgid "Shopping cart contents overview"
+msgstr "Aper&ccedil;u du contenu du panier"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:29
+msgid "Shopping Cart"
+msgstr "Panier"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:32
+msgid "Item Description"
+msgstr "Description de l'article"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:33
+msgid "<dfn title=\"Quantity\">Qty</dfn>"
+msgstr "<dfn title=\"Quantit&eacute;\">Qt&eacute;</dfn>"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:34
+#: Documents\Subversion\eshop\trunk/cart-functions.php:676
+#: Documents\Subversion\eshop\trunk/eshop-all-data.php:23
+msgid "Total"
+msgstr "Total"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:94
+#: Documents\Subversion\eshop\trunk/cart-functions.php:108
+#: Documents\Subversion\eshop\trunk/cart-functions.php:185
+#: Documents\Subversion\eshop\trunk/cart-functions.php:190
+#: Documents\Subversion\eshop\trunk/cart-functions.php:665
+#: Documents\Subversion\eshop\trunk/cart-functions.php:667
+#: Documents\Subversion\eshop\trunk/cart-functions.php:676
+#: Documents\Subversion\eshop\trunk/eshop-get-custom.php:44
+#: Documents\Subversion\eshop\trunk/eshop-get-custom.php:51
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:397
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:405
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:453
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:454
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:455
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:456
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:457
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:471
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:472
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:473
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:474
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:475
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:491
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:492
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:493
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:494
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:495
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:507
+#: Documents\Subversion\eshop\trunk/eshop_base.php:214
+#: Documents\Subversion\eshop\trunk/eshop_base.php:430
+#, php-format
+msgid "%1$s%2$s|1-currency symbol 2-amount"
+msgstr "%1$s%2$s|1-symbole mon&eacute;taire 2-montant"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:106
+#, php-format
+msgid "Including Discount of <span>%s%%</span>"
+msgstr "R&eacute;duction comprise de <span>%s%%</span>"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:108
+msgid "Sub-Total"
+msgstr "Sous-total"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:179
+#: Documents\Subversion\eshop\trunk/eshop-all-data.php:62
+#: Documents\Subversion\eshop\trunk/eshop.php:57
+msgid "Shipping"
+msgstr "Livraison"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:190
+msgid "Total Order Charges"
+msgstr "Montant total de la commande"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:197
+msgid "Empty Cart"
+msgstr "Vider le panier"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:198
+msgid "Update Cart"
+msgstr "Mettre &agrave; jour le panier"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:206
+#: Documents\Subversion\eshop\trunk/cart.php:145
+#: Documents\Subversion\eshop\trunk/checkout.php:747
+msgid "Your shopping cart is currently empty."
+msgstr "Votre panier est acutellement vide"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:209
+msgid "Test Mode &#8212; No money will be collected."
+msgstr "Mode test &#8212; Aucun argent ne sera collect&eacute;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:212
+#, php-format
+msgid "Discount Code <span>%s</span> has been applied to your cart."
+msgstr "Le code de r&eacute;duction <span>%s</span> a &eacute;t&eacute; appliqu&eacute; &agrave; votre panier."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:476
+msgid "Processing&#8230;"
+msgstr "Traitement&#8230;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:651
+msgid "Order Received"
+msgstr "Commande re&ccedil;ue"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:652
+msgid "Pending Payment"
+msgstr "En attente de paiement"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:657
+msgid "Transaction id:"
+msgstr "ID de la transaction:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:665
+msgid "Shipping Charge:"
+msgstr "Frais de livraison:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:667
+msgid "Quantity:"
+msgstr "Quantit&eacute;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:667
+msgid "Price:"
+msgstr "Prix:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:681
+#: Documents\Subversion\eshop\trunk/eshop-all-data.php:24
+msgid "Order placed on"
+msgstr "Commande mise en"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:684
+msgid "Mailing Address:"
+msgstr "Adresse:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:695
+#: Documents\Subversion\eshop\trunk/checkout.php:599
+#: Documents\Subversion\eshop\trunk/checkout.php:637
+msgid "Phone:"
+msgstr "T&eacute;l&eacute;phone:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:696
+#: Documents\Subversion\eshop\trunk/cart-functions.php:737
+#: Documents\Subversion\eshop\trunk/checkout.php:597
+#: Documents\Subversion\eshop\trunk/eshop-all-data.php:28
+msgid "Email:"
+msgstr "Email:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:699
+msgid "Shipping Address:"
+msgstr "Adresse de livraison:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:703
+msgid "Shipping address phone number:"
+msgstr "T&eacute;l&eacute;phone de l'adresse de livraison:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:717
+msgid "Paypal memo:"
+msgstr "M&eacute;mo Paypal:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:720
+msgid "Reference/PO:"
+msgstr "Reference/PO:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:723
+msgid "Order comments:"
+msgstr "Commentaires de la commande:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:727
+msgid "of"
+msgstr "de"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:738
+msgid "Code:"
+msgstr "Code:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:803
+msgid "abcdefghijkmnopqrstuvwxyz23456789ABCDEFGHIJKLMNPQRSTUVWXYZ"
+msgstr "abcdefghijkmnopqrstuvwxyz23456789ABCDEFGHIJKLMNPQRSTUVWXYZ"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:899
+#: Documents\Subversion\eshop\trunk/cart-functions.php:909
+#: Documents\Subversion\eshop\trunk/cart-functions.php:912
+msgid "Powered by"
+msgstr "Produit par:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:899
+#: Documents\Subversion\eshop\trunk/cart-functions.php:909
+msgid "Created by"
+msgstr "Cr&eacute;&eacute; par:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:910
+msgid "Version"
+msgstr "Version"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:1119
+#, php-format
+msgid "<strong>eShop %1$s</strong> is installed, however you still need to <a href=\"%2$s\">deactivate and re-activate the plugin</a>."
+msgstr "<strong>eShop %1$s</strong> est install&eacute;,cependant vous avez toujours besoin de <a href=\"%2$s\">d&eacute;sactiver et r&eacute;activer le plugin</a>."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart-functions.php:1121
+#, php-format
+msgid "<strong>eShop %1$s<strong> needs updating! Please notify the site administrator."
+msgstr "<strong>eShop %1$s<strong> doit &ecirc;tre mis &agrave; jour! SVP, informez l'administrateur du site."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart.php:30
+#: Documents\Subversion\eshop\trunk/cart.php:112
+msgid "Error: The quantity must contain numbers only, with a 999 maximum."
+msgstr "Erreur: La quantit&eacute; doit contenir des nombres uniquement, jusqu'&agrave; 999 maximum."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart.php:48
+msgid "Error: That product is currently not available."
+msgstr "Erreur: Ce produit n'est plus disponible pour le moment"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart.php:114
+msgid "Error: That quantity is not available for that product."
+msgstr "Erreur: Cette quantit&eacute; n'est pas disponible pour ce produit."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart.php:131
+msgid "The order was cancelled at"
+msgstr "La commande a &eacute;t&eacute; annul&eacute;e &agrave"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart.php:132
+msgid "We have not deleted the contents of your shopping cart in case you may want to edit its content."
+msgstr "Nous n'avons pas supprim&eacute; le contenu de votre commande au cas ou vous voudriez le modifier."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart.php:142
+msgid "&laquo; Continue Shopping"
+msgstr "&laquo; Continuer mes achats"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/cart.php:142
+msgid "Proceed to Checkout &raquo;"
+msgstr "Passer au paiement"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:23
+msgid "Denotes Required Field "
+msgstr "Champs obligatoires"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:26
+msgid "Please Enter Your Details"
+msgstr "SVP, entrez vos informations"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:29
+#: Documents\Subversion\eshop\trunk/checkout.php:589
+msgid "Mailing Address"
+msgstr "Adresse"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:31
+#: Documents\Subversion\eshop\trunk/checkout.php:591
+msgid "Contact Details"
+msgstr "Informations de contact"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:33
+msgid "First Name"
+msgstr "Pr&eacute;nom"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:35
+msgid "Last Name"
+msgstr "Nom"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:38
+#: Documents\Subversion\eshop\trunk/checkout.php:119
+msgid "Company"
+msgstr "Compagnie"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:41
+msgid "Email"
+msgstr "Email"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:44
+#: Documents\Subversion\eshop\trunk/checkout.php:121
+msgid "Phone"
+msgstr "T&eacute;l&eacute;phone"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:46
+#: Documents\Subversion\eshop\trunk/checkout.php:48
+#: Documents\Subversion\eshop\trunk/checkout.php:123
+msgid "Address"
+msgstr "Adresse"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:50
+#: Documents\Subversion\eshop\trunk/checkout.php:125
+msgid "City or town"
+msgstr "Ville ou village"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:58
+#: Documents\Subversion\eshop\trunk/checkout.php:129
+msgid "State/County/Province"
+msgstr "Etat/Pays/Province"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:65
+#: Documents\Subversion\eshop\trunk/checkout.php:132
+msgid "Please Select"
+msgstr "SVP, S&eacute;lectionnez"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:66
+#: Documents\Subversion\eshop\trunk/checkout.php:133
+msgid "not applicable"
+msgstr "non-applicable"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:79
+#: Documents\Subversion\eshop\trunk/checkout.php:145
+msgid "State/County/Province <small>if not listed above</small>"
+msgstr "Etat/Pays/Province <small>si non list&eacute; au-dessus</small>"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:82
+msgid "Zip/Post code"
+msgstr "ZIP/Code Postal"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:84
+#: Documents\Subversion\eshop\trunk/checkout.php:151
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:540
+msgid "Country"
+msgstr "Pays"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:95
+#: Documents\Subversion\eshop\trunk/checkout.php:154
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:541
+msgid "Select your Country"
+msgstr "Choisissez votre Pays"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:108
+#: Documents\Subversion\eshop\trunk/checkout.php:617
+#: Documents\Subversion\eshop\trunk/checkout.php:622
+#: Documents\Subversion\eshop\trunk/checkout.php:627
+msgid "Additional information"
+msgstr "Informations compl&eacute;mentaires"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:109
+msgid "Reference or <dfn title=\"Purchase Order number\">PO</dfn>"
+msgstr "Reference ou <dfn title=\"Num&eacute; de bon de commande\">PO</dfn>"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:111
+msgid "Comments or special instructions"
+msgstr "Commentaires ou instructions sp&eacute;ciales"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:116
+msgid "Shipping address (if different)"
+msgstr "Adresse de livraison (si diff&eacute;rente)"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:117
+msgid "Name"
+msgstr "Nom"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:148
+msgid "Zip/Post Code"
+msgstr "Zip/Code postal"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:188
+msgid "<strong>Note:</strong> Submit to show shipping charges."
+msgstr "<strong>Note:</strong> Soumettre pour afficher les frais d'exp&eacute;dition."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:193
+msgid "Discount Code (case sensitive)"
+msgstr "Code de r&eacute;duction (sensible &agrave; la casse)"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:199
+msgid "Pay Via:"
+msgstr "Paiement avec:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:202
+#: Documents\Subversion\eshop\trunk/checkout.php:207
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:416
+msgid "Pay via"
+msgstr "Paiement avec"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:214
+msgid "Proceed to Confirmation &raquo;"
+msgstr "Effectuer la confirmation &raquo;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:401
+msgid "<strong>First name</strong> - missing or incorrect."
+msgstr "<strong>Pr&eacute;nom</strong> - manquant ou incorrect."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:407
+msgid "<strong>Last name</strong> - missing or incorrect."
+msgstr "<strong>Nom</strong> - manquant ou incorrect."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:413
+msgid "<strong>Email address</strong> - missing or incorrect."
+msgstr "<strong>Adresse Email</strong> - manquante ou incorrecte."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:419
+msgid "<strong>Phone Number</strong> - missing or incorrect"
+msgstr "<strong>Num&eacute;ro de t&eacute;l&eacute;phone</strong> - manquant ou incorrect."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:425
+msgid "<strong>Address</strong> - missing or incorrect."
+msgstr "<strong>Adresse</strong> - manquante ou incorrecte."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:431
+msgid "<strong>City or town</strong> - missing or incorrect."
+msgstr "<strong>Ville ou village</strong> - manquant ou incorrect."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:438
+msgid "<strong>Country</strong> - missing or incorrect."
+msgstr "<strong>Pays</strong> - manquant ou incorrect."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:445
+msgid "<strong>State/County/Province</strong> - missing or incorrect."
+msgstr "<strong>Etat/Pays/Province</strong> - manquant ou incorrect."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:452
+msgid "<strong><abbr title=\"United States\">US</abbr> State</strong> - missing or incorrect."
+msgstr "<strong><abbr title=\"Etats Unis\">USA</abbr></strong> -  - manquant ou incorrect."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:457
+msgid "<strong>Zip/Post code</strong> - missing or incorrect."
+msgstr "<strong>Zip/Code postal</strong> - manquant ou incorrect."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:461
+msgid "You have not chosen a <strong>payment option</strong>."
+msgstr "Vous n'avez pas choisis d'<strong>option de paiement</strong>."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:469
+msgid "<strong>Discount Code</strong> - is not valid."
+msgstr "Le <strong>Code de r&eacute;duction</strong> -n'est pas valide."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:476
+msgid "There were some errors with the details you entered&#8230;"
+msgstr "Il y a eu quelques erreurs dans les d&eacute;tails que vous avez entr&eacute;;&#8230;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:503
+msgid "<span class=\"noprint\">Please Confirm </span>Your Details"
+msgstr "<span class=\"noprint\">SVP confirmez </span>vos informations"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:593
+#: Documents\Subversion\eshop\trunk/checkout.php:635
+msgid "Full name:"
+msgstr "Nom complet:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:595
+#: Documents\Subversion\eshop\trunk/checkout.php:636
+msgid "Company:"
+msgstr "Entreprise:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:600
+#: Documents\Subversion\eshop\trunk/checkout.php:638
+msgid "Address:"
+msgstr "Adresse:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:601
+#: Documents\Subversion\eshop\trunk/checkout.php:639
+msgid "City or town:"
+msgstr "Ville ou village:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:605
+#: Documents\Subversion\eshop\trunk/checkout.php:607
+#: Documents\Subversion\eshop\trunk/checkout.php:643
+#: Documents\Subversion\eshop\trunk/checkout.php:645
+msgid "State/County/Province:"
+msgstr "Etat/Pays/Province:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:609
+#: Documents\Subversion\eshop\trunk/checkout.php:647
+msgid "Zip/Post code:"
+msgstr "Zip/Code postal"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:612
+#: Documents\Subversion\eshop\trunk/checkout.php:650
+msgid "Country:"
+msgstr "Pays:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:618
+#: Documents\Subversion\eshop\trunk/checkout.php:628
+msgid "Reference or PO:"
+msgstr "Reference ou PO:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:623
+#: Documents\Subversion\eshop\trunk/checkout.php:629
+msgid "Comments or instructions:"
+msgstr "Commentaires ou instructions:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:634
+msgid "Shipping Address"
+msgstr "Adresse de livraison"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:742
+msgid "&laquo; Edit Cart or Continue Shopping"
+msgstr "&laquo; Editer mon panier ou Continuer mes achats"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/checkout.php:744
+msgid "&laquo; Edit Details or Continue Shopping"
+msgstr "&laquo; Editer mes d&eacute;tails or Continuer mes achats"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-all-data.php:15
+msgid "ID"
+msgstr "ID"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-all-data.php:16
+msgid "Order Status"
+msgstr "Status de la commande"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-all-data.php:17
+msgid "Transaction ID:"
+msgstr "ID de la transation:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-all-data.php:18
+msgid "Product Name"
+msgstr "Nom du produit:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-all-data.php:19
+msgid "Item or Unit Data"
+msgstr "Article ou unit&eacute;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-all-data.php:20
+msgid "Download?"
+msgstr "T&eacute;l&eacute;chargement?"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-all-data.php:21
+#: Documents\Subversion\eshop\trunk/eshop_base.php:515
+msgid "Quantity"
+msgstr "Quantit&eacute;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-all-data.php:22
+#: Documents\Subversion\eshop\trunk/eshop-custom-fields.php:67
+#: Documents\Subversion\eshop\trunk/eshop-custom-fields.php:87
+msgid "Price"
+msgstr "Prix"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-all-data.php:25
+msgid "Name: "
+msgstr "Nom:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-all-data.php:26
+msgid "Company: "
+msgstr "Entreprise:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-all-data.php:27
+msgid "Phone: "
+msgstr "T&eacute;l&eacute;phone:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-all-data.php:29
+msgid "Address: "
+msgstr "Adresse:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-all-data.php:30
+msgid "Shipping Zone: "
+msgstr "Zone de livraison:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-all-data.php:31
+msgid "Ship To Name: "
+msgstr "Envoie au nom de:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-all-data.php:32
+msgid "Ship To Company: "
+msgstr "Envoie &agrave; l'entreprise:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-all-data.php:33
+msgid "Ship To Phone: "
+msgstr "Envoie au t&eacute;l&eacute;phone:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-all-data.php:34
+msgid "Ship To Address"
+msgstr "Envoie &agrave; l'adresse:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-all-data.php:35
+msgid "Ship To Shipping Zone:"
+msgstr "Envoie dans la zone de livraison:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-all-data.php:36
+msgid "Customer paypal memo:"
+msgstr "Memo Paypal du client:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-all-data.php:37
+msgid "Customer reference:"
+msgstr "R&eacute;f&eacute;rence du client:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-all-data.php:38
+msgid "Customer order comments:"
+msgstr "Commentaires sur la commande du client:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-all-data.php:58
+msgid "No"
+msgstr "Non"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-custom-fields.php:13
+#: Documents\Subversion\eshop\trunk/eshop-custom-fields.php:15
+msgid "Product Entry"
+msgstr "Entr&eacute;e du produit"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-custom-fields.php:53
+#: Documents\Subversion\eshop\trunk/eshop_base.php:103
+msgid "Product"
+msgstr "Produit"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-custom-fields.php:54
+#: Documents\Subversion\eshop\trunk/eshop_base.php:102
+#: Documents\Subversion\eshop\trunk/eshop_base.php:147
+#: Documents\Subversion\eshop\trunk/eshop_base.php:368
+msgid "Sku"
+msgstr "Sku"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-custom-fields.php:54
+msgid "(unique identification reference eg. abc001)"
+msgstr "(reference identifiant unique ex. abc001)"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-custom-fields.php:55
+msgid "Product Description"
+msgstr "Description du produit"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-custom-fields.php:65
+msgid "Product Options by option price and download"
+msgstr "Options du produit par prix et t&eacute;l&eacute;chargement"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-custom-fields.php:66
+msgid "Product Options"
+msgstr "Options du produit"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-custom-fields.php:67
+#: Documents\Subversion\eshop\trunk/eshop-custom-fields.php:86
+msgid "Option"
+msgstr "Option"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-custom-fields.php:67
+#: Documents\Subversion\eshop\trunk/eshop-custom-fields.php:89
+#: Documents\Subversion\eshop\trunk/eshop_base.php:150
+#: Documents\Subversion\eshop\trunk/eshop_base.php:371
+msgid "Download"
+msgstr "T&eacute;l&eacute;chargement"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-custom-fields.php:90
+#: Documents\Subversion\eshop\trunk/eshop-custom-fields.php:110
+msgid "No (or select)"
+msgstr "Non (ou s&eacute;lectionner)"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-custom-fields.php:105
+msgid "Product Settings"
+msgstr "R&eacute;glages du produit"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-custom-fields.php:109
+msgid "Shipping Rate"
+msgstr "Frais de livraison"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-custom-fields.php:136
+msgid "Featured Product"
+msgstr "Produit mis en avant"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-custom-fields.php:137
+msgid "Stock Available"
+msgstr "Stock Disponible"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-custom-fields.php:141
+msgid "Stock Quantity"
+msgstr "Quantit&eacute; en stock"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-custom-fields.php:144
+msgid "Choose listing image"
+msgstr "Choisissez l'image"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-get-custom.php:28
+msgid "Stock Available:"
+msgstr "Stock Disponible:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-get-custom.php:37
+msgid "Order"
+msgstr "Commande"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-get-custom.php:57
+msgid "<dfn title=\"Quantity\">Qty</dfn>:"
+msgstr "<dfn title=\"Quantit&eacute;\">Qt&eacute;</dfn>:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-get-custom.php:68
+msgid "Add to Cart"
+msgstr "Ajouter au panier"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-get-custom.php:68
+msgid "Add selected item to your shopping basket"
+msgstr "Ajouter l'article s&eacute;lectionn&eacute; &agrave; mon panier"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-get-custom.php:75
+#: Documents\Subversion\eshop\trunk/eshop-get-custom.php:81
+msgid "Shipping Rate:"
+msgstr "Frais de livraison:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:74
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:151
+#: Documents\Subversion\eshop\trunk/eshop_base.php:258
+msgid "Viewing page <span>{CURRENT}</span> of <span>{MAX}</span> &#8212; Displaying results <span>{FROM}</span> to <span>{TO}</span> of <span>{TOTAL}</span>"
+msgstr "Page <span>{CURRENT}</span> sur <span>{MAX}</span> &#8212; Affichage des r&eacute;sultats <span>{FROM}</span> de<span>{TO}</span> sur <span>{TOTAL}</span>"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:76
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:153
+#: Documents\Subversion\eshop\trunk/eshop_base.php:260
+msgid "Viewing page <span>{CURRENT}</span> of <span>{MAX}</span>"
+msgstr "Page <span>{CURRENT}</span> sur <span>{MAX}</span>"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:87
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:164
+msgid "Prev"
+msgstr "Pr&eacute;c&eacute;dant"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:89
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:166
+msgid "Next"
+msgstr "Suivant"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:91
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:168
+msgid "View All"
+msgstr "Tout voir"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:381
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:382
+msgid "Discount for amount sold"
+msgstr "R&eacute;duction pour le montant vendu"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:385
+msgid "Discounts"
+msgstr "R&eacute;ductions"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:386
+msgid "Spend"
+msgstr "Passer"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:387
+msgid "% Discount"
+msgstr "% de r&eacute;duction"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:405
+msgid "Free Shipping if you spend over"
+msgstr "Livraison gratuite si vous achetez plus de"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:432
+msgid "This is a table of our online order shipping rates"
+msgstr "Ceci est une table de nos tarifs de livraison"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:433
+msgid "Shipping rates by class and zone <small>(subject to change)</small>"
+msgstr "Frais de livraison par classe et par zone (susceptible de changement)"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:434
+msgid "Ship Class"
+msgstr "Classe de livraison"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:434
+msgid "Zone 1"
+msgstr "Zone 1"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:434
+msgid "Zone 2"
+msgstr "Zone 2"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:434
+msgid "Zone 3"
+msgstr "Zone 3"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:434
+msgid "Zone 4"
+msgstr "Zone 4"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:434
+msgid "Zone 5"
+msgstr "Zone 5"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:449
+msgid "(First Item)"
+msgstr "(Premier article)"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:451
+msgid "(Additional Items)"
+msgstr "(Articles suppl&eacute;mentaires)"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:490
+msgid "(Overall charge)"
+msgstr "(Charges globales)"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:506
+msgid "(Free)"
+msgstr "(Gratuit)"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:539
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:571
+msgid "Check your shipping zone"
+msgstr "V&eacute;rifiez votre zone de livraison"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:550
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:582
+msgid "Submit"
+msgstr "Envoyez"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:555
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:587
+#, php-format
+msgid "%1$s is in Zone %2$s"
+msgstr "%1$s est dans la zone %2$s"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:572
+msgid "State"
+msgstr "Etat"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop-shortcodes.php:573
+msgid "Select your State"
+msgstr "S&eacute;lectionnez votre Etat"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:54
+#: Documents\Subversion\eshop\trunk/eshop.php:66
+#: Documents\Subversion\eshop\trunk/eshop.php:69
+msgid "eShop"
+msgstr "eShop"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:55
+msgid "eShop Stats"
+msgstr "eShop Stats"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:55
+msgid "Stats"
+msgstr "Stats"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:56
+msgid "eShop Orders"
+msgstr "eShop Commandes"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:56
+msgid "Orders"
+msgstr "Commandes"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:57
+msgid "eShop Shipping"
+msgstr "eShop Livraison"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:58
+msgid "eShop Products"
+msgstr "eShop Produits"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:58
+#: Documents\Subversion\eshop\trunk/eshop_base.php:332
+msgid "Products"
+msgstr "Produits"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:59
+msgid "eShop Downloads"
+msgstr "eShop T&eacute;l&eacute;chargements"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:59
+msgid "Downloads"
+msgstr "T&eacute;l&eacute;chargements"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:60
+msgid "eShop Discount Codes"
+msgstr "eShop Codes de r&eacute;duction"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:60
+msgid "Discount Codes"
+msgstr "Codes de r&eacute;duction"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:62
+#: Documents\Subversion\eshop\trunk/eshop.php:67
+msgid "eShop Base"
+msgstr "eShop Base"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:62
+msgid "Base"
+msgstr "Base"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:63
+msgid "eShop Email Templates"
+msgstr "eShop Templates Email "
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:63
+msgid "Templates"
+msgstr "Templates"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:64
+msgid "eShop About"
+msgstr "eShop A propos"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:64
+msgid "About"
+msgstr "A propos"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:65
+msgid "eShop Help"
+msgstr "eShop Aide"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:65
+msgid "Help"
+msgstr "Aide"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:66
+msgid "eShop Style"
+msgstr "eShop Style"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:67
+#: Documents\Subversion\eshop\trunk/eshop_base_settings.php:42
+msgid "eShop Base Settings"
+msgstr "eShop R&eacute;glages de Base"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:68
+msgid "eShop Base Feed"
+msgstr "eShop Flux de Base"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:69
+msgid "eShop Settings"
+msgstr "eShop R&eacute;glages"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:70
+msgid "eShop Uninstall"
+msgstr "eShop D&eacute;sinstallation"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:248
+msgid "ERROR! This plugin requires that the wp_content directory is writable."
+msgstr "ERREUR! Ce plugin a besoin que le dossier wp_content soit libre en &eacute;criture."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:271
+msgid ""
+"You may have some outstanding orders to process\n"
+"\n"
+"regards\n"
+"\n"
+"Your eShop plugin"
+msgstr ""
+"Vous devez avoir quelques commandes &agrave; pr&eacute;parer\n"
+"\n"
+"Cordialement\n"
+"\n"
+"Votre plugin eShop"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:274
+msgid ": outstanding orders"
+msgstr ": commandes en suspens"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:283
+msgid "The order was canceled at PayPal."
+msgstr "La commande a &eacute;t&eacute; annul&eacute;e par Paypal."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:284
+msgid "We have not emptied your shopping cart in case you want to make changes."
+msgstr "Nous n'avons pas vid&eacute; votre panier au cas ou vous voudriez faire des modifications."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:298
+msgid "TEST-"
+msgstr "TEST-"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop.php:310
+msgid "View your downloads"
+msgstr "Voir vos t&eacute;l&eacute;chargements"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_about.php:16
+msgid "This page is normally accessible via the <strong>About</strong> link."
+msgstr "Cette page est normalement accessible via le lien <strong>A propos</strong>."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:41
+msgid "eShop Base Products"
+msgstr "Produits eShop Base"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:42
+msgid "A reference table for products in your base feed."
+msgstr "Une table de r&eacute;f&eacute;rence pour vos produits dans votre flux de base."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:100
+msgid "Sort Orders by &raquo;"
+msgstr "Trier les commandes par &raquo;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:101
+msgid "ID Number"
+msgstr "Num&eacute;ro ID"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:104
+#: Documents\Subversion\eshop\trunk/eshop_base.php:151
+#: Documents\Subversion\eshop\trunk/eshop_base.php:372
+msgid "Stock"
+msgstr "Stock"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:143
+#: Documents\Subversion\eshop\trunk/eshop_base.php:364
+msgid "product listing"
+msgstr "lsite des articles"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:144
+#: Documents\Subversion\eshop\trunk/eshop_base.php:365
+msgid "Product Quick reference table"
+msgstr "Table de r&eacute;f&eacute;rence des Produits Minute"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:148
+#: Documents\Subversion\eshop\trunk/eshop_base.php:369
+msgid "Page"
+msgstr "Page"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:149
+#: Documents\Subversion\eshop\trunk/eshop_base.php:370
+msgid "Description"
+msgstr "Description"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:152
+#: Documents\Subversion\eshop\trunk/eshop_base.php:373
+msgid "Option/Price"
+msgstr "Option/Prix"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:153
+#: Documents\Subversion\eshop\trunk/eshop_base.php:374
+#: Documents\Subversion\eshop\trunk/eshop_base.php:480
+msgid "Image"
+msgstr "Image"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:180
+msgid "(no title)"
+msgstr "(pas de titre)"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:186
+msgid "Change details"
+msgstr "Changer les d&eacute;tails"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:245
+#: Documents\Subversion\eshop\trunk/eshop_base.php:460
+msgid "Not available."
+msgstr "Non disponible."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:262
+msgid "&laquo; First Page"
+msgstr "&laquo; Premi&egrave;re Page"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:262
+msgid "Last Page &raquo;"
+msgstr "Derni&egrave;re Page &raquo;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:265
+msgid "orders"
+msgstr "commandes"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:265
+msgid "View All &raquo;"
+msgstr "Voir tout &raquo;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:270
+msgid "There are no products available."
+msgstr "Il n'y a pas de produit disponible."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:304
+msgid "Quantity was not numeric, a default of 25 has been applied."
+msgstr "La quantit&eacute; n'est pas num&eacute;rique, par d&eacute;faut, 25 a &eacute;t&eacute; ajout&eacute;."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:319
+#: Documents\Subversion\eshop\trunk/eshop_base_settings.php:37
+msgid "<strong>Error</strong> the following were not valid:"
+msgstr "<strong>Erreur</strong> la suite n'est pas valide:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:321
+msgid "eshop Base details for this product have been updated."
+msgstr "Les d&eacute;tails de eshop Base pour cet article ont &eacute;t&eacute; mis &agrave; jour."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:333
+msgid "A reference table for identifying products."
+msgstr "Une table de r&eacute;f&eacute;rence pour identifier les produits."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:475
+msgid "Additional settings"
+msgstr "Param&egrave;tres suppl&eacute;mentaires"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:496
+msgid "No images found that were associated with this page, and hence cannot be associated with the product."
+msgstr "Aucune image n'a &eacute;t&eacute; associ&eacute;e avec cette page, et par cons&eacute;quent ne peut pas &ecirc;tre associ&eacute;e avec le produit."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:503
+msgid "Others"
+msgstr "Autres"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:505
+msgid "Brand <small>The brand name of the product</small>"
+msgstr "Marque <small>Le nom de la marque du produit</small>"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:507
+msgid "EAN <small>European Article Number is a 13 digit number often below the bar code of the item.</small>"
+msgstr "EAN <small>European Article Number est un nombre &agrave; 13 chiffres souvent en dessous des codes barre du produit.</small>"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:509
+msgid "ISBN <small>The unique 10- or 13-digit number assigned to every printed book.</small>"
+msgstr "ISBN <small>Un nombre unique entre 10- ou 13-chiffres assign&eacute; &agrave; chaques livre imprim&eacute;s.</small>"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:511
+msgid "MPN <small>Manufacturer's Part Number is a unique code determined by the manufacturer for that product.</small>"
+msgstr "MPN <small>Manufacturer's Part Number est un code unique d&eacute;termin&eacute; par le constructeur pour ce produit.</small>"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:513
+msgid "Product type <small>The type of product being offered.</small>"
+msgstr "Type de produit <small>Le type du produit offert.</small>"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:517
+msgid "Condition <small>the condition of this product</small>"
+msgstr "Condition <small>l'&eacute;tat de ce produit</small>"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:538
+msgid "Expiration date <small>(or how long a product will be available.)</small>"
+msgstr "Date d'expiration <small>(ou combien de temps un produit sera disponible.)</small>"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:539
+msgid "Year"
+msgstr "Ann&eacute;e"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:561
+msgid "Month"
+msgstr "Mois"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:576
+msgid "Day"
+msgstr "Jour"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:594
+msgid "Update"
+msgstr "MAJ"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:603
+msgid "Error"
+msgstr "Erreur"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base.php:604
+msgid "That product does not exist!"
+msgstr "Ce produit n'existe pas!"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base_create_feed.php:17
+msgid "Here be Feeds"
+msgstr "Ici se trouvent les Fluxs"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base_create_feed.php:22
+msgid "Download the xml file"
+msgstr "T&eacute;l&eacute;charger le fichier XML"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base_create_feed.php:23
+msgid "Mac - Download the xml file"
+msgstr "Mac - T&eacute;l&eacute;charger le fichier XML"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base_create_feed.php:24
+msgid "View xml file"
+msgstr "Voir le fichier XML"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base_settings.php:22
+msgid "eShop Base product data has been reset."
+msgstr "La base des produits eshop a &eacute;t&eacute; r&eacute;initialis&eacute;e."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base_settings.php:39
+msgid "eShop Base Settings have been updated."
+msgstr "Les r&eacute;glages de la base eShop  ont &eacute;t&eacute; mis &agrave jour."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base_settings.php:50
+msgid "eShop Base Options"
+msgstr "Options eShop Base "
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base_settings.php:52
+msgid "Brand"
+msgstr "Marque"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base_settings.php:53
+msgid "Condition"
+msgstr "Condition"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base_settings.php:68
+msgid "Product expiry in days"
+msgstr "Expiration du produit en jours"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base_settings.php:83
+msgid "Product type"
+msgstr "Type de produit"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base_settings.php:84
+msgid "Payment Accepted <small> comma delimited list of payment methods available.</small>"
+msgstr "Paiements Accept&eacute;s <small> la liste des m&eacute;thodes de paiements accept&eacute;s s&eacute;par&eacute;e par des virgules.</small>"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base_settings.php:91
+msgid "Update Options &#187;"
+msgstr "Mettre &agrave; jour les options &#187;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base_settings.php:97
+msgid "Reset eShop Base"
+msgstr "RAZ de eShop Base"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base_settings.php:98
+msgid "This resets all product data entered on the <a href=\"admin.php?page=eshop_base.php\">eShop Base Products</a> page."
+msgstr "Ceci fait un reset de toutes les donn&eacute;es des produits sur la <a href=\"admin.php?page=eshop_base.php\">Base des produits eShop</a>."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_base_settings.php:99
+msgid "Reset Now"
+msgstr "RAZ Maintenant"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:19
+msgid "Add a discount code"
+msgstr "Ajouter un code de r&eacute;duction"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:31
+msgid "Discount code deleted."
+msgstr "Le code de r&eacute;duction a &eacute;t&eacute; supprim&eacute;."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:48
+msgid "Edit a discount code"
+msgstr "Editer un code de r&eacute;duction"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:70
+msgid "You must choose a discount code type"
+msgstr "Vous devez choisir un type de code de r&eacute;duction."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:76
+msgid "Percentage must be a number below 100"
+msgstr "Pourcentage doit &ecirc;tre inf&eacute; &agrave; 100"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:78
+msgid "Percentage must be a number above 0"
+msgstr "Pourcentage doit &ecirc;tre superieur &agrave; 0"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:88
+msgid "The date you have chosen is not valid"
+msgstr "La date que vous avez choisie n'est pas valide"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:93
+msgid "You must specify a code"
+msgstr "Vous devez sp&eacute;cifier un code"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:96
+msgid "How many times can this be used - must be numeric, or blank"
+msgstr "Combien de temps il peut &ecirc;ter utilis&eacute; - doit &ecirc;tre num&eacute;rique, or vide"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:100
+msgid "There were some errors:"
+msgstr "Il y a eu quelques erreurs:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:123
+msgid "Discount code details updated"
+msgstr "Les d&eacute;tails du code de r&eacute;duction on &eacute;t&eacute; mis &agrave; jour"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:132
+msgid "Discount code details entered"
+msgstr "D&eacute;tails du code de r&eacute;dution entr&eacute;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:144
+msgid "Suggested random codes:"
+msgstr "Code de r&eacute;duction sugg&eacute;r&eacute;:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:152
+msgid "Enter new code"
+msgstr "Entrez un nouveau code"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:161
+msgid "Discount type"
+msgstr "Type de r&eacute;duction"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:163
+msgid "Please select"
+msgstr "SVP, s&eacute;lectionnez"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:164
+msgid "Percentage"
+msgstr "Pourcentage"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:165
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:277
+msgid "%  - Limited by Uses"
+msgstr "%  - Limit&eacute; par utilisation"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:166
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:281
+msgid "%  - Limited by Date"
+msgstr "%  - Limit&eacute; par date"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:167
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:284
+msgid "%  - Limited by Uses and Date"
+msgstr "%  - Limit&eacute; par date ET utilisation"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:169
+msgid "Free Shipping"
+msgstr "Livraison gratuite"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:170
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:287
+msgid "Free Ship - Limited by Uses"
+msgstr "Envoie gratuit - Limit&eacute; par utilisations"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:171
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:291
+msgid "Free Ship - Limited by Date"
+msgstr "Envoie gratuit - Limit&eacute; par date"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:172
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:294
+msgid "Free Ship - Limited by Uses and Date"
+msgstr "Envoie gratuit - Limit&eacute; par utilisation et par date"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:175
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:250
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:158
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:173
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:190
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:301
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:313
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:321
+msgid "Code"
+msgstr "Code"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:177
+msgid "Discount percentage:"
+msgstr "Pourcentage de r&eacute;duction:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:179
+msgid "How many times can this be used (leave blank for unlimited)"
+msgstr "Combien de temps peut-il &ecirc;tre utilis&eacute; (laissez vide pour illimit&eacute;)"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:181
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:254
+msgid "End Date"
+msgstr "Date de fin"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:234
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:256
+msgid "Active?"
+msgstr "Actif?"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:247
+msgid "Discount codes reference table"
+msgstr "Table de r&eacute;f&eacute;rence des codes de r&eacute;duction"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:251
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:186
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:189
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:192
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:383
+msgid "Discount"
+msgstr "R&eacute;duction"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:252
+msgid "Type"
+msgstr "Type"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:253
+msgid "Remaining"
+msgstr "Restant"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:255
+msgid "Used"
+msgstr "Utilis&eacute;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:257
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:272
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:232
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:162
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:178
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:304
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:316
+msgid "Delete"
+msgstr "Supprim&eacute;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:270
+msgid "Unlimited"
+msgstr "Illimit&eacute;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:278
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:288
+msgid "Not applicable"
+msgstr "Non applicable"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_discount_codes.php:299
+msgid "Edit this discount"
+msgstr "Editer cette r&eacute;duction"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:23
+msgid "Missing"
+msgstr "Manquant"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:25
+msgid "Available"
+msgstr "Disponible"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:59
+msgid "The uploaded file exceeds the <code>upload_max_filesize</code> directive in <code>php.ini</code>."
+msgstr "Le fichier upload&eacute; exc&egrave;de la directive <code>upload_max_filesize</code> dans <code>php.ini</code>."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:60
+msgid "The uploaded file exceeds the <em>MAX_FILE_SIZE</em> directive that was specified in the HTML form."
+msgstr "Le fichier upload&eacute; exc&egrave;de la directive <em>MAX_FILE_SIZE</em> qui a &eacute;t&eacute; sp&eacute;cifi&eacute; dans le formulaire HTML."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:61
+msgid "The uploaded file was only partially uploaded."
+msgstr "Le fichier upload&eacute; ne l'a &eacute;t&eacute; que partiellement."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:62
+msgid "No file was uploaded."
+msgstr "Aucun fichier n'a &eacute;t&eacute; uplod&eacute;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:63
+msgid "Missing a temporary folder."
+msgstr "Il manque un dossier temporaire"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:64
+msgid "Failed to write file to disk."
+msgstr "Echec lors de l'&eacute;criture du fichier sur le disque"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:74
+msgid "No file indicated"
+msgstr "Aucun fichier indiqu&eacute;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:80
+msgid "File moved"
+msgstr "Fichier d&eacute;plac&eacute;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:82
+msgid "Failed to move file"
+msgstr "Echec lors du d&eacute;placement du fichier"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:86
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:89
+msgid "Error uploading file"
+msgstr "Erreur lors de l'upload du fichier"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:89
+msgid "it <strong>already exists!</strong>"
+msgstr "Il <strong>existe d&eacute;j&agrave;!</strong>"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:92
+msgid "A title must be provided."
+msgstr "Un titre doit &ecirc;tre indiqu&eacute;."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:99
+msgid "has successfully uploaded"
+msgstr "a upload&eacute; avec succ&egrave;s"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:116
+msgid "File deleted successfully"
+msgstr "Fichier supprim&eacute; avec succ&egrave;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:126
+msgid "File updated successfully"
+msgstr "Fichier mis &agrave; jour avec succ&egrave;s"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:131
+msgid "The title for the file cannot be blank!"
+msgstr "Le titre du fichier ne peut pas &ecirc;tre vide!"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:134
+msgid "Downloads should to be a number!"
+msgstr "Les t&eacute;l&eacute;chargements doivent &ecirc;tre un nombre!"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:137
+msgid "Purchases should to be a number!"
+msgstr "Les commandes doivent &ecirc;tre un nombre!"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:140
+msgid "Some errors were found:"
+msgstr "Queleques erreurs ont &eacute;t&eacute; trouv&eacute;es:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:164
+msgid "Edit File details"
+msgstr "Editer les d&eacute;tails du fichier"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:165
+msgid "downloadable file details"
+msgstr "d&eacute;tails du fichier t&eacute;l&eacute;chargeable"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:166
+msgid "File details"
+msgstr "D&eacute;tails du fichier"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:170
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:220
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:317
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:332
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:431
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:224
+msgid "Title"
+msgstr "Titre"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:171
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:333
+msgid "Size"
+msgstr "Taille"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:172
+msgid "File name"
+msgstr "Nom du fichier"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:173
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:335
+msgid "Upload Date"
+msgstr "Date d'upload"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:175
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:222
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:321
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:337
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:303
+msgid "Purchases"
+msgstr "Commandes"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:208
+msgid "This file is associated with the following product pages:"
+msgstr "Ce fichier est associ&eacute; avec les pages de produit suivante:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:217
+msgid "Amend File details"
+msgstr "Modifier les d&eacute;tails du fichier"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:225
+msgid "Amend details"
+msgstr "Modifier les d&eacute;tails"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:233
+msgid "You can only delete this file if it is <strong>not</strong> associated with a product page."
+msgstr "Vous ne pouvez supprimer ce fichier uniquement si il n'est <strong>pas</strong> associ&eacute; &agrave; une page de produit."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:236
+msgid "Delete File"
+msgstr "Supprimer le fichier"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:244
+msgid "Product not found"
+msgstr "Produit non trouv&eacute;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:311
+msgid "Downloadable Products"
+msgstr "Produits t&eacute;l&eacute;chargeables"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:318
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:112
+msgid "Date Ascending"
+msgstr "Date ascendante"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:319
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:113
+msgid "Date Descending"
+msgstr "Date descendante"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:324
+msgid "Total Downloads:"
+msgstr "Total des t&eacute;l&eacute;chargements:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:325
+msgid "Total Purchases:"
+msgstr "Total des commandes::"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:327
+msgid "download listing"
+msgstr "t&eacute;l&eacute;charger le listing"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:328
+msgid "Available downloads"
+msgstr "T&eacute;l&eacute;chargements disponibles"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:334
+msgid "Status"
+msgstr "Status"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:367
+msgid "Unknown Download Files"
+msgstr "Fichiers t&eacute;l&eacute;charg&eacute;s inconnus"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:375
+msgid "Add all unknown download files"
+msgstr "Ajouter tous les fichiers t&eacute;l&eacute;charg&eacute;s inconnus"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:399
+msgid "Downloadable Product"
+msgstr "Fichier t&eacute;l&eacute;chargeable"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:400
+msgid "You currently have no downloadable products"
+msgstr "Vous n'avez actuellement aucun fichier t&eacute;l&eacute;chargeable"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:412
+msgid "<strong>Warning!</strong>The download directory is not currently writable! File permissions must first be changed."
+msgstr "<strong>Attention!</strong>Le dossier de t&eacute;l&eacute;chargement n'est pas libre en &eacute;crture actuellement! Les permissions du fichiers doivent &ecirc;tre chang&eacute;s."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:420
+msgid "Upload a File"
+msgstr "Uploader un fichier"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:427
+msgid "Use this to upload your local file. Max file size is "
+msgstr "Utilisez ceci pour uploader votre fichier local. La taille maximum est "
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:429
+msgid "Upload"
+msgstr "Upload"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:432
+msgid "Local File"
+msgstr "Fichier local"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:434
+msgid "Over write file it it exists"
+msgstr "Ecraser le fichier si il existe"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:436
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:417
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:420
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:510
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:513
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:523
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:526
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:582
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:585
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:618
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:621
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:419
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:422
+#: Documents\Subversion\eshop\trunk/eshop_style.php:65
+msgid "Yes"
+msgstr "Oui"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_downloads.php:440
+msgid "Upload File"
+msgstr "Uploader le fichier"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_email.php:21
+msgid "eShop Customer Contact"
+msgstr "eShop Contact Client"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_email.php:21
+msgid "Use this form to notify the selected customer at any time, for any reason."
+msgstr "Utilisez ce formulaire pour notifiez les clients suivant &agrave; tout moment, for n'importe quelle raison."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_email.php:40
+msgid "Email sent successfully."
+msgstr "Email envoy&eacute; avec succ&egrave;s"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_email.php:41
+msgid "&laquo; Return to Order Detail"
+msgstr "&laquo; Returner aux d&eacute;tails de la commande"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_email.php:54
+msgid " Notification"
+msgstr " Notification"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_email.php:74
+msgid "Send a notification to:"
+msgstr "Envoyer une notification &agrave;:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_email.php:75
+msgid "Select a reply-to address:"
+msgstr "S&eacute;lectionner une adresse de r&eacute;ponse:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_email.php:91
+msgid "Enter your subject line:"
+msgstr "Entrez le sujet:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_email.php:92
+msgid "Enter your custom message:"
+msgstr "Entrez votre message personnel:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_email.php:96
+msgid "Send Email"
+msgstr "Envoyer l'Email"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_email.php:101
+msgid "Nothing here yet."
+msgstr "Rien ici maintenant"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:30
+msgid "Admin Note changed successfully."
+msgstr "Note de l'Admin modifi&eacute;e avec succ&egrave;s."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:32
+msgid "Error: Admin Note was not changed."
+msgstr "Erreur: Note de l'Admin n'a pas &eacute;t&eacute; chang&eacute;e."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:50
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:492
+msgid "Order status changed successfully."
+msgstr "Statut de la commande modifi&eacute; avec succ&egrave;s."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:52
+msgid "No orders were selected."
+msgstr "Aucune commande n'a &eacute;t&eacute; s&eacute;lectionn&eacute;e."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:116
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:128
+msgid "Customer"
+msgstr "Client"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:123
+msgid "eshop Order Listing"
+msgstr "eshop Listing de commande"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:127
+msgid "Date/Time"
+msgstr "Date/Heure"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:129
+msgid "Items"
+msgstr "Articles"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:131
+msgid "Contains Downloads"
+msgstr "Contient des t&eacute;l&eacute;chargements"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:132
+msgid "Transaction ID"
+msgstr "ID de la transaction"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:133
+msgid "Bulk"
+msgstr "Masse"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:169
+msgid "View complete order details"
+msgstr "Voir tous les d&eacute;tails de la commande"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:181
+msgid "Bulk:"
+msgstr "Masse:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:181
+msgid "Select all of the checkboxes above"
+msgstr "S&eacute;lectionnez toutes les checkboxes ci-dessous"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:181
+msgid "Check"
+msgstr "V&eacute;rifier"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:181
+msgid "Deselect all of the checkboxes above"
+msgstr "D&eacute;s&eacute;lectionnez toutes les checkboxes ci-dessus"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:181
+msgid "Uncheck"
+msgstr "D&eacute;cocher"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:190
+msgid "View All &raquo"
+msgstr "Tout voir &raquo"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:198
+msgid "Change Orders Status"
+msgstr "Changer le status de la commande"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:199
+msgid "Mark orders as:"
+msgstr "Marquer les commandes comme:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:201
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:260
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:452
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:514
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:521
+msgid "Shipped"
+msgstr "Envoy&eacute;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:202
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:257
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:336
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:452
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:512
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:522
+msgid "Active"
+msgstr "Actif"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:203
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:452
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:513
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:523
+msgid "Pending"
+msgstr "En attente"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:204
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:452
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:524
+msgid "Failed"
+msgstr "Echou&eacute;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:205
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:452
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:525
+msgid "Deleted"
+msgstr "Effac&eacute;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:209
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:529
+msgid "Change"
+msgstr "Modifi&eacute;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:219
+msgid "Complete Order Deletion"
+msgstr "Suppression de la commande compl&eacute;t&eacute;e"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:220
+msgid "Orders that are "
+msgstr "Les commandes qui sont "
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:229
+msgid "hours old"
+msgstr "heures"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:240
+msgid "There are no"
+msgstr "Il n'y a pas "
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:252
+msgid "Order Stats"
+msgstr "Stats des commandes"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:298
+msgid "Product stats"
+msgstr "Stats des produits"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:300
+msgid "Products."
+msgstr "Produits"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:301
+msgid "Products in stock."
+msgstr "Produits en stock."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:302
+msgid "Featured products."
+msgstr "Produits mis en avant."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:321
+msgid "Product Download Stats"
+msgstr "Stats de T&eacute;l&eacute;chargement des produits"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:323
+msgid "Total Downloads"
+msgstr "Total des t&eacute;l&eacute;chargements"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:324
+msgid "Total Purchases"
+msgstr "Total des achats"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:335
+msgid "Total Available"
+msgstr "Total disponible"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:337
+msgid "Total codes used"
+msgstr "Total des codes utili&eacute;s"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:345
+msgid "Download Data"
+msgstr "T&eacute;l&eacute;charger les donn&eacute;es"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:350
+msgid "Download all transactions"
+msgstr "T&eacute;l&eacute;charger toutes les transactions"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:351
+msgid "Mac users Download all transactions"
+msgstr "Utilisateurs de MAc T&eacute;l&eacute;charger toutes les transactions"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:366
+msgid "That order has now been deleted from the system."
+msgstr "Cette commande a maintenant &eacute;t&eacute; effac&eacute;e du syst&egrave;me."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:416
+msgid "Active Order"
+msgstr "Commande active"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:417
+msgid "Pending Order"
+msgstr "Commande en attente"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:418
+msgid "Shipped Order"
+msgstr "Commande envoy&eacute;e"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:419
+msgid "Deleted Order"
+msgstr "Commande supprim&eacute;e"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:420
+msgid "Failed Order"
+msgstr "Commande &eacute;chou&eacute;e"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:425
+msgid "Active Orders"
+msgstr "Commandes actives"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:428
+msgid "Pending Orders"
+msgstr "Commandes en attente"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:431
+msgid "Failed Orders"
+msgstr "Commandes &eacute;chou&eacute;es"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:434
+msgid "Shipped Orders"
+msgstr "Commandes envoy&eacute;es"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:437
+msgid "Deleted Orders"
+msgstr "Commandes supprim&eacute;es"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:440
+msgid "eShop Order Stats"
+msgstr "eShop Stats des commandes"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:483
+msgid "Deleted orders older than"
+msgstr "Commandes supprim&eacute;es plus vieilles de"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:483
+msgid "have now been <strong>completely</strong> deleted."
+msgstr "a maintenant &eacute;t&eacute; <strong>compl&egrave;tement</strong> supprim&eacute;."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:485
+msgid "There was an error, and nothing has been deleted."
+msgstr "Il y a eu une erreur, et rien n'a &eacute;t&eacute; supprim&eacute;."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:500
+msgid "Download allowance increased."
+msgstr "Autorisation de t&eacute;l&eacute;chargement augment&eacute;."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:518
+msgid "Change Order Status"
+msgstr "Changer le status de la commande"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:519
+msgid "Mark order as:"
+msgstr "Marquer la commande comme:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:533
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:552
+msgid "Order Details"
+msgstr "D&eacute;tails de la commande"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:543
+msgid "Admin Note:"
+msgstr "Note de l'admin:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:545
+msgid "Edit admin note"
+msgstr "Editer la note de l'admin"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:547
+msgid "Add admin note"
+msgstr "Ajouter une note de l'admin"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:551
+msgid "Table for order details"
+msgstr "Table pour les d&eacute;tails de la commande"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:572
+msgid "Yes - remaining:"
+msgstr "Oui - restant:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:575
+msgid "Increase download allowance by 1"
+msgstr "Augmenter l'autorisation de t&eacute;l&eacute;chargement de 1"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:575
+msgid "Increase"
+msgstr "Augment&eacute;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:597
+msgid "Total &raquo;"
+msgstr "Total &raquo;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:599
+#, php-format
+msgid "Total paid via %1$s &raquo;"
+msgstr "Total pay&eacute; par %1$s &raquo;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:614
+msgid "Invoice"
+msgstr "Facture"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:681
+msgid "Shipping Zone:"
+msgstr "Zone d'exd&eacute;dition:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:700
+msgid "Admin Note"
+msgstr "Note de l'admin"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:702
+msgid "Update Admin Note"
+msgstr "Mettre &agrave; jour la note de l'admin"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:706
+msgid "Completely delete this order?"
+msgstr "Supprimer compl&egrave;tement cette commande ?"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_orders.php:706
+msgid "<small><strong>Warning:</strong> this order will be completely deleted and cannot be recovered at a later date.</small>"
+msgstr "<small><strong>Attention:</strong> cette commande va &eacute;t&eacute; compl&egrave;tement supprim&eacute;e et ne pourra pas &ecirc;tre r&eacute;cup&eacute;r&eacute;e plus tard.</small>"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_products.php:52
+msgid "The Listing Image for this product has been updated."
+msgstr "L'image de listing pour ce produit a &eacute;t&eacute; mis &agrave; jour."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_products.php:89
+msgid "Product listing"
+msgstr "Listing du produit"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_products.php:97
+#: Documents\Subversion\eshop\trunk/eshop_products.php:274
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:237
+msgid "Featured"
+msgstr "Mis en avant"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_products.php:99
+msgid "Current Image"
+msgstr "Image actuelle"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_products.php:168
+msgid "Associated Images"
+msgstr "Images associ&eacute;es"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_products.php:172
+msgid "Choose Image"
+msgstr "Choisissez l'image"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_products.php:203
+msgid "A reference table for identifying products"
+msgstr "Une table de r&eacute;f&eacute;rence pour identifier les produits"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_products.php:323
+msgid "DL"
+msgstr "DL"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_products.php:324
+msgid "S/R"
+msgstr "S/R"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_products.php:325
+msgid "Stock Level"
+msgstr "Niveau du stock"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_products.php:325
+msgid "Stk"
+msgstr "Stk"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_products.php:326
+msgid "Number of Purchase"
+msgstr "Nombre d'achats"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_products.php:326
+msgid "Purc."
+msgstr "Ach."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_products.php:327
+msgid "Marked as Featured"
+msgstr "Mettre en avant"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_products.php:327
+msgid "Feat."
+msgstr "MisEnAvant"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_products.php:329
+msgid "Listing Images"
+msgstr "Liste des images"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_products.php:370
+msgid "not set"
+msgstr "non d&eacute;fini"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_products.php:406
+msgid "Change image for"
+msgstr "Changer l'image pour"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:21
+msgid "General"
+msgstr "G&eacute;n&eacute;ral"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:21
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:324
+msgid "Merchant Gateways"
+msgstr "Plateforme Marchant"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:21
+msgid "Special Pages"
+msgstr "Pages Sp&eacute;ciales"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:47
+msgid "No Merchant Gateway selected, eShop has been put in Test Mode"
+msgstr "Aucune plateforme marchande s&eacute;lectionn&eacute;e, eShop a donc &eacute;t&eacute; mis en mode test"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:58
+msgid "Privacy Policy page id chosen"
+msgstr "ID de la page des Conditions sur la vie priv&eacute;e"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:58
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:71
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:83
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:96
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:108
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:119
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:130
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:141
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:152
+msgid "is invalid."
+msgstr "est invalide."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:62
+msgid "The Privacy Policy page needs to be a page id number."
+msgstr "La page des conditions sur la vie priv&eacute;e doit &ecirctre l'ID d'une page."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:71
+msgid "Help page id chosen"
+msgstr "Page d'aide choisi"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:74
+msgid "The help page needs to be a page id number."
+msgstr "La page d'aide doit &ecirctre l'ID d'une page."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:83
+msgid "The Shipping rates page id chosen"
+msgstr "L'ID de la page des frais d'envoi a &eacute;&eacute; choisi"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:86
+msgid "The Shipping rates page needs to be a page id number."
+msgstr "La page des frais d'exp&eacute;dition doit &ecirctre l'ID d'une page."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:96
+msgid "The Main Shop page id chosen"
+msgstr "L'ID de la page principale de la boutique a &eacute;&eacute; choisi"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:99
+msgid "The Main Shop page needs to be a page id number."
+msgstr "La page principale de la boutique doit &ecirctre l'ID d'une page."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:108
+msgid "The Cart page id chosen"
+msgstr "L'ID de la page du panier a &eacute;&eacute; choisi"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:111
+msgid "The Cart page needs to be a page id number."
+msgstr "La page du panier doit &ecirctre l'ID d'une page."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:119
+msgid "The Cancelled payment page id chosen"
+msgstr "L'ID de la page des paiement annul&eacute; a &eacute;&eacute; choisi"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:122
+msgid "The Cancelled payment page needs to be a page id number."
+msgstr "La page d'annulation des paiements doit &ecirctre l'ID d'une page."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:130
+msgid "The Checkout page id chosen"
+msgstr "L'ID de la page des commandes a &eacute;&eacute; choisi"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:133
+msgid "The Checkout page needs to be a page id number."
+msgstr "La page de commande doit &ecirctre l'ID d'une page."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:141
+msgid "The Successful payment page id chosen"
+msgstr "L'ID de la page des paiements valid&eacute;s a &eacute;&eacute; choisi"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:144
+msgid "The Successful payment page needs to be a page id number."
+msgstr "La page des paiements r&eacute;ssi doit &ecirctre l'ID d'une page."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:152
+msgid "The Downloads page id chosen"
+msgstr "L'ID de la page des t&eacute;l&eacute;chargements a &eacute;&eacute; choisi"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:155
+msgid "The Downloads page needs to be a page id number."
+msgstr "La page des t&eacute;l&eacute;chargements doit &ecirctre l'ID d'une page."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:162
+msgid "Number of download attempts should be numeric, a default of 3 has been applied."
+msgstr "Le nombre de tentatives de t&eacute;l&eacute;chargements doit &ecirc;tre num&eacute;rique, par d&eacute;faut 3 a &eacute;t&eacute; appliqu&eacute;."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:172
+msgid "\"Spend over to get free shipping\" must be numeric!"
+msgstr "\"D&eacute;penser pour obtenir l'exp&eacute;dition gratuite\" must be numeric!"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:186
+msgid "Either \"Spend\" or \"% Discount\" was empty so both values were unset!"
+msgstr "\"D&eacute;penses\" ou \"% R&eacute;duction\" &eacute;taient vides donc les deux ont &eacute;t&eacute; enlev&eacute;es."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:189
+msgid "\"Spend\" and \"% Discount\" must be numeric!"
+msgstr "\"D&eacute;penses\" et \"% R&eacute;duction\" doivent &ecirc;tre num&eacute;riques"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:192
+msgid "<strong>Warning</strong> % Discount is equal to or over 100%!"
+msgstr "<strong>Attention</strong> % de r&eacute;duction est &eacute;gal ou sup&eacute;rieur &agrave 100%!"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:212
+msgid "Orders per page should be numeric, a default of 10 has been applied."
+msgstr "Les commandes par page doivent &ecirc;tre num&eacute;rques, par d&eacute;faut 10 a &eacute;t&eacute; appliqu&eacute;."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:218
+msgid "Options per product should be numeric, a default of 3 has been applied."
+msgstr "Les options par produit doivent &ecirc;tre num&eacute;rques, par d&eacute;faut 3 a &eacute;t&eacute; appliqu&eacute;."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:224
+msgid "Number of random products to display should be numeric, a default of 5 has been applied."
+msgstr "Le nombre de produit al&eacute;atoire &agrave; afficher doit &ecirc;tre num&eacute;rques, par d&eacute;faut 5 a &eacute;t&eacute; appliqu&eacute;."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:230
+msgid "Number of products to display on department pages should be numeric, a default of 5 has been applied."
+msgstr "Le nombre de produit &agrave; afficher par page de cat&eacute;gorie doit &ecirc;tre num&eacute;rques, par d&eacute;faut 5 a &eacute;t&eacute; appliqu&eacute;."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:236
+msgid "The number entered for the image in the cart must be numeric, a default of 75 has been applied."
+msgstr "Le nombre entr&eacute; entr&eacute; pour l'image dans le panier doit &ecirc;tre num&eacute;rique, par d&eacute;faut 75 a &eacute;t&eacute; appliqu&eacute;."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:240
+msgid "Currency Symbol was missing, the default $ has been applied."
+msgstr "Le symbole de la monnaie est manquant, par d&eacute;faut $ a &eacute;t&eacute; appliqu&eacute;."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:246
+msgid "You must have a Merchant Gateway selected before you can go live!"
+msgstr "Vous devez avoir s&eacute;lectionn&eacute; une plateforme marchande avant de mettre en live!"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:248
+msgid "You must have set an eShop from email address before you can go live!"
+msgstr "Vous devez avoir mis un eShop &agrave; partir d'une adresse email avant de mettre en live!"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:264
+msgid "eShop is currently <span class=\"live\">Live</span>."
+msgstr "eShop est actuellement <span class=\"live\">Live</span>."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:266
+msgid "eShop is currently in <span class=\"test\">Test Mode</span>."
+msgstr "eShop est actuellement en <span class=\"test\">Mode Test</span>."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:280
+msgid "eshop Settings have been updated."
+msgstr "Les param&egrave; d'Eshop a &eacute;t&eacute; mise &agrave; jour."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:290
+msgid "General Settings"
+msgstr "PAram&egrave;tres generaux"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:291
+msgid "Business Location"
+msgstr "Localisation de l'entreprise"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:309
+msgid "Currency Code"
+msgstr "Code de monnaie"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:325
+msgid "Paypal"
+msgstr "Paypal"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:326
+msgid "Accept payment by Paypal"
+msgstr "Accepter les paiements par Paypal"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:327
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:335
+msgid "Email address"
+msgstr "Adresse Email"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:330
+msgid "Payson"
+msgstr "Payson"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:331
+msgid "<strong>Warning:</strong> Payson has a minimum purchase value of 4 SEK (when last checked). All payments to Payson are in SEK, irrespective of settings above."
+msgstr "<strong>Attention:</strong> Payson a une valeur minimum de d&eacute;pense de 4 SEK (aux derni&egrave;res v&eacute;rifications). Tous les paiements avec Payson doivent &egrave;tre en SEK, ind&eacute;pendament des r&eacute;glages ci-dessus."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:334
+msgid "Accept payment by Payson"
+msgstr "Paiements par Payson accept&eacute;s"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:336
+msgid "Agent ID"
+msgstr "ID Agent"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:337
+msgid "Secret Key"
+msgstr "Clef secr&egrave;te"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:338
+msgid "Cart Description"
+msgstr "Description du panier"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:339
+msgid "Min. Cart value"
+msgstr "Valeur minimum du panier"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:390
+msgid "Spend over to get free shipping"
+msgstr "D&eacute;penser pour obtenir les frais d'exp&eacute;dition gratuits"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:408
+msgid "Downloadables"
+msgstr "T&eacute;l&eacute;chargeables"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:409
+msgid "Download attempts"
+msgstr "Tentatives de t&eacute;l&eacute;chargement"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:411
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:413
+msgid "Downloads Only"
+msgstr "Uniquement t&eacute;l&eacute;chargement"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:412
+msgid "Change this setting only if you are using eShop for downloadable sales only."
+msgstr "Changez ce r&eacute;glage uniquement si vous utilisez eShop pour la vente de t&eacute;l&eacute;chargements uniquement."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:440
+msgid "Continue Shopping Link"
+msgstr "Lien Continuer les achats"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:441
+msgid "If you enter the page id of your main Shop page, then eShop will use that for the <strong>Continue Shopping</strong> link. Leave this blank and eShop will either link to the last product, or to the main page of your site automatically."
+msgstr "Si vous entre l'ID de la page principale de votre boutique, alors eShop l'utilisera pour le lien <strong>Continuer le Shopping</strong>. Laissez le vide et eShop fera un lien vers le dernier produit, ou la page principale automatiquement."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:442
+msgid "Shop Page - page id number"
+msgstr "Page Boutique - num&eacute; id de la page"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:444
+msgid "Link to extra pages"
+msgstr "Liens vers des pages suppl&eacute;mentaires"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:445
+msgid "These links automatically appear on the checkout page."
+msgstr "Ces liens apparaissent automatiquement sur la page de commande."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:446
+msgid "Shipping rates - page id number"
+msgstr "Frais d'envoi - num&eacute; id de la page"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:447
+msgid "Privacy Policy - page id number"
+msgstr "Conditions g&eacute;n&eacute;rales - num&eacute; id de la page"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:448
+msgid "Help - page id number"
+msgstr "Aide - num&eacute; id de la page"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:451
+msgid "Automatically created pages"
+msgstr "Pages automatiquement cr&eacute;es"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:452
+msgid "<strong>Warning:</strong> Changes made here amend the page id of the automatically created pages - change with extreme care."
+msgstr "<strong>Attention:</strong> Les changements ici affecteront l'id de la page automatiquement cr&eacute;&eacute;e - modifiez avec beaucoup de prudence."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:453
+msgid "Cart - page id number"
+msgstr "Panier - num&eacute; id de la page"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:454
+msgid "Checkout - page id number"
+msgstr "Commande - num&eacute; id de la page"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:455
+msgid "Successful payment  - page id number"
+msgstr "Paiement effectu&eacute - num&eacute; id de la page"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:456
+msgid "Cancelled payment - page id number"
+msgstr "Paiement annul&eacute; - num&eacute; id de la page"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:457
+msgid "Downloads - page id number"
+msgstr "T&eacute;l&eacute;chargement - num&eacute;ro id de la page"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:478
+msgid "eShop Admin"
+msgstr "eShop Admin"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:479
+msgid "eShop status"
+msgstr "eShop status"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:483
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:486
+msgid "Live"
+msgstr "Live"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:484
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:487
+msgid "Testing"
+msgstr "En test"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:491
+msgid "Orders per page"
+msgstr "Commandes par page"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:494
+msgid "Business Details"
+msgstr "D&eacute;tails de l'entreprise"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:495
+msgid "eShop from email address"
+msgstr "eShop &agrave; partir de l'adresse email"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:496
+msgid "Available business email addresses"
+msgstr "Email disponible de la compagnie"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:504
+msgid "Options per product"
+msgstr "Options par produit"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:505
+msgid "Out of Stock message"
+msgstr "Message de rupture de stock"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:506
+msgid "Stock Control"
+msgstr "Contr&ocirc;le du stock"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:519
+msgid "Show stock available"
+msgstr "Afficher le stock disponible"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:539
+msgid "Currency"
+msgstr "Devise"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:541
+msgid "Symbol"
+msgstr "Symbole"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:544
+msgid "Product Listings"
+msgstr "Liste des produits"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:545
+msgid "Featured and department product sort order"
+msgstr "Ordre de tri des produits mis en avant et des cat&eacute;gories"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:563
+msgid "Newest"
+msgstr "Le plus r&eacute;cent"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:564
+msgid "Oldest"
+msgstr "Le plus vieux"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:565
+msgid "Alphabetically"
+msgstr "Alphab&eacute;tiquement"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:569
+msgid "Random products to display"
+msgstr "Produits al&eacute;toires &agrave; afficher"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:570
+msgid "Department Products to display"
+msgstr "Cat&eacute;gorie de produits &agrave; afficher"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:573
+msgid "Cart Options"
+msgstr "Options du panier"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:574
+msgid "Percentage size of thumbnail image shown in cart - leave blank to not show the image."
+msgstr "Pourcentage de la taille de l'image affich&eacute;e dans le panier - laissez vide pour ne pas montrer l'image."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:577
+msgid "Sub pages"
+msgstr "Sous-pages"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:578
+msgid "Hide sub pages from menu until top level page is visited."
+msgstr "Cacher les sous-pages du menu tant que le menu de plus haut niveau est visit&eacute;."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:592
+msgid "Search Results"
+msgstr "R&eacute;sultats de recherche"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:593
+msgid "Add image to search results"
+msgstr "Ajouter les images aux r&eacute;sultats des recherches"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:598
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:602
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:606
+msgid "All pages and posts"
+msgstr "Tous les articles et pages"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:599
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:603
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:607
+msgid "eShop products pages and posts only"
+msgstr "Pages et articles des produits eShop seulement"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:613
+msgid "Credits"
+msgstr "Cr&eacute;dits"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:614
+msgid "Display eShop credits"
+msgstr "Afficher les cr&eacute;dits eShop"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:629
+msgid "Cron"
+msgstr "Cron"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_settings.php:630
+msgid "Cron Email address"
+msgstr "Adresse email Cron"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:50
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:370
+msgid "Shipping Rates"
+msgstr "Frais d'envoi"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:50
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:154
+msgid "Countries"
+msgstr "Pays"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:88
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:90
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:226
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:228
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:237
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:239
+msgid "is not valid."
+msgstr "n'est pas valide."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:88
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:90
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:226
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:228
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:237
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:239
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:251
+msgid "State:"
+msgstr "Etat:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:88
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:90
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:101
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:226
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:228
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:237
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:239
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:251
+msgid "Zone:"
+msgstr "Zone:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:109
+msgid "You cannot delete all the Countries!"
+msgstr "Vous ne pouvez pas supprimer tous les pays!"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:117
+msgid "Country Shipping Zones changed successfully."
+msgstr "Zones de livraison par pays modifi&eacute; avec succ&egrave;s."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:121
+msgid "Country Shipping Zones"
+msgstr "Zone d'envoi par pays"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:123
+msgid "&#8220;Code&#8221; is the 2 letter state abbreviation, followed by &#8220;Country Name,&#8221; then the shipping &#8220;Zone&#8221; (use 1-5)."
+msgstr "&#8220;Code&#8221; est les 2 lettre de l'etat, suivis par le &#8220;Nom du pays,&#8221; puis par la &#8220;Zone&#8221; d'exp&eacute;dition (utilisez 1-5)."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:124
+msgid "&#8220;List&#8221; promotes that country to appear at the top of the list."
+msgstr "&#8220;List&#8221; promouvoir ce pays pour apparaitre en haut de la liste."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:128
+msgid "Filter"
+msgstr "Filtre"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:129
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:160
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:175
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:192
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:303
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:315
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:323
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:357
+msgid "Zone"
+msgstr "Zone"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:152
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:295
+msgid "Shipping Zones"
+msgstr "Zones d'exp&eacute;dition"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:153
+msgid "Countries, with their 2 letter code, and applicable zone"
+msgstr "Pays, avec leur 2 premi&eagrave;res lettres, et la zone applicable"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:161
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:177
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:274
+msgid "List"
+msgstr "Liste"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:174
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:191
+msgid "Country name"
+msgstr "Nom du pays"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:201
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:331
+msgid "Update Shipping Zones"
+msgstr "Mettre &agrave; jour les Zones d'exp&eacute;dition"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:259
+msgid "Specific Shipping Zones changed successfully"
+msgstr "Les Zone d'Exp&eacute;dition sp&eacute;cifiques ont &eacute;t&eacute; chang&eacute;e avec succ&egrave;s"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:267
+msgid "State/County/Province Shipping Zones"
+msgstr "Etat/Pays/Province Zones d'exp&eacute;dition"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:269
+msgid "&#8220;Code&#8221; is the 4 letter(maximum usual is 2) abbreviation and must be unique, followed by &#8220;Name&#8221;, then the shipping &#8220;Zone&#8221; (use 1-5)."
+msgstr "&#8220;Code&#8221; est compos&eacute; de 4 lettres (maximum) abbr&eacute;g&eacute; et doit &ecirc;tre unique, suivis par le &#8220;Nom&#8221;, puis par la  &#8220;Zone&#8221; d'exp&eacute;dition (1-5)."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:270
+msgid "Example: AZ, Arizona,4"
+msgstr "Exemple: AZ, Arizona,4"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:273
+msgid "Set State/County/Province"
+msgstr "Set State/County/Province"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:297
+msgid "States, with their 2 letter code, and applicable zone"
+msgstr "Etats, avec leur code de 2 lettre, et la zone applicable"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:298
+msgid "<abbr title=\"United States\">US</abbr> States"
+msgstr "<abbr title=\"United States\">US</abbr> Etats Unis"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:314
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:322
+msgid "Statename"
+msgstr "Statename"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:357
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:437
+msgid "Class"
+msgstr "Classe"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:365
+msgid "<strong>Error</strong> the following were not valid amounts:"
+msgstr "<strong>Erreur</strong> ce qui suit n'etaient pas des montants valides:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:367
+msgid "Shipping Rates changed successfully."
+msgstr "Frais d'expedition modifi&eacute;s avec succ&egrave;s."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:373
+msgid "The following are the shipping rates by class and zone."
+msgstr "Ce qui suient sont les frais d'expedition par classe et par zone."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:374
+msgid ""
+"<strong>Warning:</strong> changing which method you use <em>may</em> affect the full table\n"
+"\tof shipping rates. To change from one method to another, first <em>update</em>\n"
+"\tyour choice, and the relevant table will then appear."
+msgstr ""
+"<strong>Attention:</strong> changer la m&eacute;thode que vous utilisez <em>devrait</em> affecter tout le tableau\n"
+"\tdes frais d'expedition. Pour changer d'une m&eacute;thode &agrave; l'autre, d'abord <em>mettez &agrave; jour</em>\n"
+"\tvotre choix, et la table associ&eacute;e apparaitra."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:378
+msgid "Shipping rate calculation"
+msgstr "Calcul des frais d'exp&eacute;dition"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:384
+msgid "( per quantity of 1, prices reduced for additional items )"
+msgstr "( par quantit&eacute; de 1, prix r&eacute;duits pour des articles supp. )"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:386
+msgid "( once per shipping class no matter what quantity is ordered )"
+msgstr "( un par classe d'expedition, peu importe quelle quantit&eacute; est command&eacute;e )"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:388
+msgid "( one overall charge no matter what quantity is ordered )"
+msgstr "( une charge pour tout, peu importe la quantit&eacute; command&eacute;e )"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:393
+msgid "Shipping Zones by"
+msgstr "Zones d'exp&eacute;dition par"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:405
+msgid "Default Zone for unknown State/County/Province"
+msgstr "Zone par d&eacute;faut pour les Etat/Pays/Province inconnus"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:415
+msgid "Show Shipping Zones on Shipping Page"
+msgstr "Afficher les frais d'exp&eacute;dition sur la page des envois"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:428
+msgid "Update Shipping rate calculation"
+msgstr "Mettre &agrave; jour le calcul des frais d'envois"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:433
+msgid "Shipping Classes and Zones"
+msgstr "Classes et zones d'envois"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:435
+msgid "Shipping rates by class and zone"
+msgstr "Frais d'exp&eacute;dition par classe et zone"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:461
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:479
+msgid "Zone 1 class"
+msgstr "Classe Zone 1"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:462
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:480
+msgid "Zone 2 class"
+msgstr "Classe Zone 2"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:463
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:481
+msgid "Zone 3 class"
+msgstr "Classe Zone 3"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:464
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:482
+msgid "Zone 4 class"
+msgstr "Classe Zone 4"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:465
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:483
+msgid "Zone 5 class"
+msgstr "Classe Zone 5"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:490
+msgid "A"
+msgstr "A"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_shipping.php:506
+msgid "Update Shipping Rates"
+msgstr "Mettre &agrave; jour les frais d'exp&eacute;dition"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_style.php:12
+msgid "The Stylesheet Has Been Updated"
+msgstr "La feuille de style a &eacute;t&eacute; mise &agrave; jour"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_style.php:18
+msgid "Default style has been applied."
+msgstr "Le style par d&eacute;faut a &eacute;t&eacute; appliqu&eacute;."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_style.php:20
+msgid "Default style has been turned off."
+msgstr "Le style par d&eacute;faut a &eacute;t&eacute; d&eacute;sactiv&eacute;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_style.php:35
+msgid "<strong>Warning!</strong> The css file is not currently editable/writable! File permissions must first be changed."
+msgstr "<strong>Attention!</strong> Le fichier css file est actuellement prot&eacute;g&eacute; en lecture/&eacute;criture! Les permissions du fichier doivent &ecirc;tre chan&eacute;es."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_style.php:40
+msgid "eShop Styles"
+msgstr "eShop Styles"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_style.php:41
+msgid "Use this page to modify your default styling"
+msgstr "Utilisez cette page pour modifier votre style par d&eacute;faut"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_style.php:44
+msgid "Default Style"
+msgstr "Style par d&eacute;faut"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_style.php:48
+msgid "Your active theme has an eshop style sheet, eshop.css, and will be used in preference to the default style below. Therefore changes made via the style editor below will not show on your site."
+msgstr "Votre th&egrave;me actif a une feuille de style pour eShop, et sera utilis&eacute;e en pr&eacute;f&eacute;rence &agrave celle ci dessous. Cependant, les changements fait via l'&eacute;diteur de style ci dessous ne seront pas affich&eacute;s sur votre site."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_style.php:52
+msgid "Default style is used by default. You can edit this via the editor below, or choose not to use it."
+msgstr "Le style par d&eacute;faut est utilis&eacute; par d&eacute;faut. Vous pouvez l'&eacute;diter via l'&eacute;diteur ci dessous, ou choisir de ne pas l'utiliser."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_style.php:55
+msgid "Use Default Style"
+msgstr "Utiliser le style par d&eacute;faut"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_style.php:67
+msgid "Amend"
+msgstr "Modifier"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_style.php:76
+msgid "Style Editor"
+msgstr "Editeur de style"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_style.php:77
+msgid "Use this simple <abbr><span class=\"abbr\" title=\"Cascading Style Sheet\">CSS</span></abbr> file editor to modify the default style sheet file."
+msgstr "Utilisez ce simple &eacute;diteur de fichier <abbr><span class=\"abbr\" title=\"Cascading Style Sheet\">CSS</span></abbr>pour modifier la feuille de style apr d&eacute;faut."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_style.php:80
+msgid "Style File Editor."
+msgstr "Editeur du fichier de style."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_style.php:81
+msgid "Edit Style"
+msgstr "Editer le style"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_style.php:93
+#: Documents\Subversion\eshop\trunk/eshop_templates.php:98
+msgid "Sorry. The file you are looking for could not be found"
+msgstr "D&eacute;sol&eacute;. Le fichier que vous recherchez ne peut pas &ecirc;tre trouv&eacute;."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_style.php:96
+msgid "Update Style"
+msgstr "Mettre &agrave; jour le style"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_templates.php:12
+msgid "The Template Has Been Updated"
+msgstr "Le template a &eacute;t&eacute; mis &agrave jour"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_templates.php:41
+msgid "Automatic order email"
+msgstr "Email de commande automatique"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_templates.php:42
+msgid "Customer response email"
+msgstr "Email de reponse au client"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_templates.php:45
+msgid "<strong>Warning!</strong> The template file is not currently editable/writable! File permissions must first be changed."
+msgstr "<strong>Attention!</strong> Le fichier template n'est pas pour le moment libre en &eacute;criture/lecture! Les permissions sur le fichier doivent &ecirc;tre modifi&eacute;es."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_templates.php:54
+msgid "Use this page to modify your default email templates"
+msgstr "Utilisez cette page pour modifier vos templates email par d&eacute;faut"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_templates.php:57
+msgid "Choose template"
+msgstr "Choisir le template"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_templates.php:58
+msgid "Choose which email template you would like to alter."
+msgstr "Choisir quel template de l'email vous souhaitez modifier."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_templates.php:61
+msgid "Choose Template"
+msgstr "Choisir le template"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_templates.php:75
+msgid "Choose"
+msgstr "Choisir"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_templates.php:80
+msgid "Email Template Editor"
+msgstr "Editeur de template pour l'email"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_templates.php:81
+msgid "Use this simple file editor to modify the default email template file."
+msgstr "Utilisez ce simple &eacute;diteur de fichier pour modifier le fichier de template d'email par d&eacute;faut."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_templates.php:84
+msgid "Template File Editor."
+msgstr "Editeur de fichier template."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_templates.php:85
+msgid "Edit Template"
+msgstr "Editer le template"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_templates.php:102
+msgid "Update Template"
+msgstr "Mettre &agrave; jour le template"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_templates.php:109
+msgid "the status of the order."
+msgstr "le statut de la commande."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_templates.php:110
+msgid "Customers First Name."
+msgstr "Pr&eacute;nom du client."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_templates.php:111
+msgid "Customers Full Name"
+msgstr "Nom du client"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_templates.php:112
+msgid "Customers Email address"
+msgstr "Adresse email du client"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_templates.php:113
+msgid "The contents of the cusotmers order (i.e. their shopping cart)"
+msgstr "Le contenu de la commande du  client (i.e leur panier)"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_templates.php:114
+msgid "A Download link along with the customers email address and password. <em>Only used when an order contains downloads</em>"
+msgstr "Un lien de t&eacute;l&eacute;chargement avec l'adresse email du client et son password. <em> Seulement utilis&eacute; lorsque une commande contient des t&eacute;l&eacute;chargements</em>"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_templates.php:115
+msgid "Customers Address"
+msgstr "Adresse du client"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_templates.php:116
+msgid "The reference and other messages provided by the customer."
+msgstr "La r&eacute;f&eacute;rence et autres messages fournis par le client."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_templates.php:117
+msgid "Customers shipping address phone number."
+msgstr "Num&eacute;ro de t&eacute;l&eacute;phone de l'adresse d'exp&eacute;dition du client."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_uninstall.php:18
+msgid "Confirm uninstall of eShop"
+msgstr "Confimez la d&eacute;sinstallation de eShop"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_uninstall.php:19
+msgid "Are you really sure you want to do this? All information will be lost and this action is irreversible."
+msgstr "Etes-vous vraiment certain de vouloir faire &ccedil;a? Toutes les informations seront perdues et cette action est irreversible."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_uninstall.php:23
+msgid "Confirm Uninstall"
+msgstr "Confimez la d&eacute;sinstallation"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_uninstall.php:49
+msgid "MySQL Tables - deleted"
+msgstr "Tables Mysql - Supprim&eacute;es"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_uninstall.php:104
+msgid "Options - deleted"
+msgstr "Options - Supprim&eacute;es"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_uninstall.php:139
+msgid "Product Information - deleted"
+msgstr "Informations produits - Supprim&eacute;es"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_uninstall.php:151
+msgid "Files uploaded via the plugin -  deleted"
+msgstr "Fichiers upload&eacute; via le plugin -  Supprim&eacute;s"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_uninstall.php:164
+msgid "eShop template files deleted"
+msgstr "Templates de fichier eShop supprim&eacute;s"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_uninstall.php:176
+msgid "Plugin deactivated"
+msgstr "Plugin desactiv&eacute;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_uninstall.php:178
+msgid "eShop uninstalled."
+msgstr "eShop desinstall&eacute;."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_uninstall.php:181
+msgid "Uninstalling eShop will result in the following:"
+msgstr "Desinstaller eShop resultera &agrave;:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_uninstall.php:183
+msgid "Removal of files generated by the plugin."
+msgstr "Suppression des fichiers g&eacute;n&eacute;r&eacute;s par le plugin."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_uninstall.php:184
+msgid "Removal of files uploaded via the plugin (downloads)."
+msgstr "Suppression des fichiers upload&eacute;s par le plugin."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_uninstall.php:185
+msgid "Removal of the database tables created by the plugin."
+msgstr "Suppression de la base de donn&eacute;es cr&eacute;&eacute;e par le plugin."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_uninstall.php:186
+msgid "Removal of meta data(product information) associated with a product page."
+msgstr "Suppression des donn&eacute;s meta (information produit) associ&eacute;es avec une page produit."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_uninstall.php:187
+msgid "Deactivation and removal of eShop widgets."
+msgstr "D&eacute;sactivation et suppression des widgets eShop."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_uninstall.php:188
+msgid "Deactivation of the plugin."
+msgstr "D&eacute;sactivation du plugin."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_uninstall.php:190
+msgid "Uninstalling the plugin will not affect the following:"
+msgstr "Desinstaller le plugin n'affectera pas ce qui suit:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_uninstall.php:192
+msgid "Page content associated with products."
+msgstr "Contenu des pages associ&eacute; avec des produits."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_uninstall.php:193
+msgid "Pages generated by the plugin."
+msgstr "Pages g&eacute;n&eacute;r&eacute;es par le plugin."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_uninstall.php:194
+msgid "The plugin itself will not be deleted."
+msgstr "Le plugin ne sera pas supprom&eacute;."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_uninstall.php:196
+msgid "Uninstall"
+msgstr "D&eacute;sinstaller"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:3
+msgid "Displays a simplified cart"
+msgstr "Afficher un panier simplifi&eacute;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:4
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:5
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:22
+msgid "eShop Cart"
+msgstr "Panier eShop"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:6
+msgid "Displays accepted payments logos"
+msgstr "Afficher les logos des moyens de paiement accept&eacute;s"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:7
+msgid "eShop Payments"
+msgstr "Paiements eShop"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:8
+msgid "eshop_payments"
+msgstr "eshop_paiements"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:30
+msgid "item"
+msgstr "article"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:30
+msgid "items"
+msgstr "articles"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:30
+msgid "in cart"
+msgstr "dans le panier"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:32
+msgid "View Cart"
+msgstr "Voir le panier"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:33
+msgid "Checkout"
+msgstr "Commander"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:46
+msgid "Title:"
+msgstr "Titre:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:60
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:62
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:81
+msgid "eShop Payments Accepted"
+msgstr "eShop Paiements accept&eacute;s:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:89
+msgid "eShop Payments Widget Title:"
+msgstr "eshop Titre du widget de paiement:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:227
+msgid "Images or text"
+msgstr "Images ou texte"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:229
+msgid "Images"
+msgstr "Images"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:230
+msgid "Text"
+msgstr "Texte"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:232
+#, php-format
+msgid "%s size image to display"
+msgstr "%s taille de l'image &agrave; afficher"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:235
+msgid "What to show"
+msgstr "Montrer quoi"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:238
+msgid "New"
+msgstr "Nouveau"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:239
+msgid "Random"
+msgstr "Au hasard"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:240
+msgid "Specific products"
+msgstr "Sp&eacute;cifier des produits"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:242
+msgid "How many to show"
+msgstr "En montrer combien"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:252
+msgid "Page/Post IDs - comma separated"
+msgstr "IDs des Page/Article - s&eacute;par&eacute; par une virgule"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/eshop_widget.php:268
+msgid "eShop Widget for displaying products"
+msgstr "eShop Widget d'affichage des produits"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/index.php:1
+msgid "Directory Access Prohibited"
+msgstr "Acc&egrave;s au dossier interdit"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/paypal.php:194
+msgid "Thank you for your order"
+msgstr "Merci pour votre commande"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/paypal.php:196
+msgid "Thank you for your order!"
+msgstr "Merci de votre commande!"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/paypal.php:254
+#: Documents\Subversion\eshop\trunk/paypal.php:372
+msgid "Paypal IPN -"
+msgstr "IPN Paypal"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/paypal.php:257
+#: Documents\Subversion\eshop\trunk/paypal.php:375
+msgid "Testing: Paypal IPN - "
+msgstr "Test: Paypal IPN - "
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/paypal.php:265
+msgid "Duplicated-"
+msgstr "Dupliqu&eacute;-"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/paypal.php:271
+msgid "Fraud-"
+msgstr "Fraude-"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/paypal.php:279
+msgid "Completed Payment"
+msgstr "Paiement effectu&eacute;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/paypal.php:315
+msgid "A Failed Payment"
+msgstr "Un &eacute;chec de paiement"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/paypal.php:321
+#: Documents\Subversion\eshop\trunk/paypal.php:393
+msgid "An instant payment notification was received"
+msgstr "Un paiement instantann&eacute; a &eacute;t&eacute re&ccedil;u"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/paypal.php:322
+msgid "from "
+msgstr "de"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/paypal.php:322
+#: Documents\Subversion\eshop\trunk/paypal.php:394
+msgid " on "
+msgstr " sur"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/paypal.php:323
+#: Documents\Subversion\eshop\trunk/paypal.php:395
+msgid " at "
+msgstr " &agrave;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/paypal.php:323
+msgid "Details"
+msgstr "D&eacute;tails"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/paypal.php:328
+#: Documents\Subversion\eshop\trunk/paypal.php:397
+msgid "Regards, Your friendly automated response."
+msgstr "Cordialement, Votre amical repondeur automatique."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/paypal.php:385
+msgid "INVALID Payment"
+msgstr "Paiement INVALIDE"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/paypal.php:388
+msgid "Invalid and Failed Payment"
+msgstr "Paiement &eacute;chou&eacute; et invalide"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/paypal.php:394
+msgid "from"
+msgstr "de"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/paypal.php:395
+msgid "Details:"
+msgstr "D&eacute;tails:"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/payson.php:171
+#: Documents\Subversion\eshop\trunk/payson.php:293
+msgid "Payson IPN -"
+msgstr "IPN Payson - "
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/payson.php:174
+#: Documents\Subversion\eshop\trunk/payson.php:296
+msgid "Testing: Payson IPN - "
+msgstr "Test: Payson IPN - "
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/purchase-downloads.php:23
+#: Documents\Subversion\eshop\trunk/purchase-downloads.php:56
+msgid "Download all files"
+msgstr "T&eacute;l&eacute;charger tous les fichiers"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/purchase-downloads.php:32
+msgid "download"
+msgstr "t&eacute;l&eacute;charger"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/purchase-downloads.php:34
+msgid "downloads"
+msgstr "t&eacute;l&eacute;chargements"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/purchase-downloads.php:44
+msgid "Number of downloads remaining"
+msgstr "Nombre de t&eacute;l&eacute;chargements restant"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/purchase-downloads.php:56
+msgid "in one zip file."
+msgstr "en un fichier zip."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/purchase-downloads.php:61
+msgid "Download All Files"
+msgstr "T&eacute;l&eacute;charger tous les fichiers"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/purchase-downloads.php:68
+msgid "Either your email address or code is incorrect, please try again."
+msgstr "Votre email ou votre mot-de-passe est incorrect, veuillez r&eacute;essayer."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/purchase-downloads.php:70
+msgid "Your email address and code are correct, however you have no downloads remaining."
+msgstr "Votre adresse email et votre code sont correct, cependant vous n'avez plus de t&eacute;l&eacute;chargement restant."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/purchase-downloads.php:88
+msgid "Enter Details"
+msgstr "Entrez les informations"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/paypal/paypal.class.php:143
+msgid "<strong>Note:</strong> Submit to finalize order at PayPal."
+msgstr "<strong>Note:</strong> Soumettre pour finaliser le paiement avec Paypal."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/paypal/paypal.class.php:164
+#: Documents\Subversion\eshop\trunk/payson/payson.class.php:78
+msgid "Please wait, your order is being processed&#8230;"
+msgstr "Veuillez patienter, votre commande est entrain d'&ecirc,tre trait&eacite;e&#8230;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/paypal/paypal.class.php:165
+msgid "If you are not automatically redirected to Paypal, please use the <em>Proceed to Paypal</em> button."
+msgstr "Si nous n'&ecirc;tes pas automatiquement vers Paypal, veuillez utiliser le bouton <em>Proc&eacute;der avec Paypal</em>."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/paypal/paypal.class.php:179
+msgid "Proceed to Paypal &raquo;"
+msgstr "Proc&eacute;c&eacute;der avec Paypal &raquo;"
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/payson/payson.class.php:65
+msgid "<strong>Note:</strong> Submit to finalize order at Payson."
+msgstr "<strong>Note:</strong> Soumettre pour finaliser le paiement avec Payson."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/payson/payson.class.php:79
+msgid "If you are not automatically redirected to Payson, please use the <em>Proceed to Payson</em> button."
+msgstr "Si vous n'&ecirc;tes pas redirig&eacute; automatiquement vers Payson, veuillez utiliser le boutton <em>Payer avec Payson</em>."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/payson/payson.class.php:91
+#, php-format
+msgid "Payson minimum of %s SEK applied."
+msgstr "Minimum Payson de %s SEK appliqu&eacute;."
+
+#: C:\Documents
+#: and Settings\Richard\My
+#: Documents\Subversion\eshop\trunk/payson/payson.class.php:116
+msgid "Proceed to Payson &raquo;"
+msgstr "Proc&eacute;der avec Payson &raquo;"
+

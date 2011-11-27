@@ -1,0 +1,216 @@
+/* Tabs
+---------------------------------------------------------- */
+.tabs_container {
+	margin-bottom: 20px;
+}
+ul.tabs {
+	overflow:hidden;
+	border-bottom: 1px solid #ddd;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.tabs li {  
+	border: 1px solid #ddd;
+	border-bottom: 0;
+	display: inline;
+	float: left;
+	margin: 0 -1px -1px 0;
+	padding: 1px;
+}
+ul.tabs a { 
+	display: block;
+	padding: 0 10px;
+	background: #f5f5f5;
+	color: #666;
+	padding: 6px 9px;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 14px;
+	white-space: nowrap;
+}
+ul.tabs a:hover {
+	background: #fff;
+	text-decoration: none;
+}
+ul.tabs li.current {
+	background: #fff;
+}
+ul.tabs li.current a {
+	background: #fff;
+	color: #333;
+	cursor: default;
+}
+.tabs_container .panes {
+	border: 1px solid #ddd;
+	border-top: 0;
+	margin: 0;
+	padding: 10px 15px;
+	background: #fff;
+}
+.tabs_container .panes > div{
+	display:none;
+}
+#footer ul.tabs li{
+	padding: 0px;
+	margin: 0 0 -1px 0;
+}
+#footer ul.tabs, #footer ul.tabs li, #footer .tabs_container .panes {
+	border-color:#999;
+	border-color: rgba(255, 255, 255, 0.15);
+}
+#footer ul.tabs a {
+	background: transparent;
+}
+#footer ul.tabs a:hover, #footer ul.tabs li.current, #footer ul.tabs li.current a {
+	background-color: transparent;
+}
+#footer ul.tabs li.current {
+	background-color: rgba(255, 255, 255, 0.1);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF',EndColorStr='#19FFFFFF'); 
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF',EndColorStr='#19FFFFFF')";
+}
+#footer .tabs_container .panes {
+	padding: 10px 15px;
+	background: transparent;
+}
+/* Mini Tabs
+---------------------------------------------------------- */
+.mini_tabs_container {
+	margin-bottom: 20px;	
+}
+ul.mini_tabs {
+	overflow:hidden;
+	background:url("../images/mini_tabs_border.gif") repeat-x scroll left bottom transparent;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	padding-left:10px;
+}
+ul.mini_tabs li {  
+	-webkit-border-top-left-radius: 1px;
+	-webkit-border-top-right-radius: 1px;
+	-moz-border-radius-topleft: 1px;
+	-moz-border-radius-topright: 1px;
+	border-top-left-radius: 1px;
+	border-top-right-radius: 1px;
+	border: 1px solid #ddd;
+	border-bottom: 0;
+	display: inline;
+	float: left;
+	margin: 0 4px 0 0;
+	padding: 1px;
+}
+ul.mini_tabs a { 
+	display: block;
+	padding: 0 10px;
+	background: #f5f5f5;
+	color: #666;
+	padding: 2px 10px;
+	font-size: 12px;
+	font-weight:bold;
+	line-height: 20px;
+	white-space: nowrap;
+}
+ul.mini_tabs a:hover {
+	background: #fff;
+	text-decoration: none;
+}
+ul.mini_tabs li.current {
+	background: #fff;
+}
+ul.mini_tabs li.current a {
+	background: #fff;
+	color: #333;
+	cursor: default;
+}
+.mini_tabs_container .panes {
+	margin: 0;
+	padding: 10px 0px;
+}
+.mini_tabs_container .panes > div{
+	display:none;
+}
+#footer ul.mini_tabs {
+	background:url("../images/footer_list_divider.png") repeat-x scroll left bottom transparent;
+	padding-bottom:1px;
+	padding-left:0;
+}
+#footer ul.mini_tabs li{
+	border:none;
+	padding:0px;
+}
+#footer ul.mini_tabs a {
+	background: transparent;
+	padding:3px 6px 2px;
+}
+#footer ul.mini_tabs a:hover, #footer ul.mini_tabs li.current, #footer ul.mini_tabs li.current a {
+	background-color: transparent;
+}
+#footer ul.mini_tabs li.current {
+	background-color: rgba(255, 255, 255, 0.1);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF',EndColorStr='#19FFFFFF'); 
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF',EndColorStr='#19FFFFFF')";
+}
+/* Accordion
+---------------------------------------------------------- */
+.accordion {
+	border:1px solid #ddd;
+	margin-bottom:20px;
+}
+.accordion .tab {
+	color:#666;
+	background-color:#f5f5f5;
+	margin:0;
+	padding:5px 15px;
+	font-size:14px;
+	font-weight:normal;
+	border:1px solid #fff;
+	border-bottom:none;
+	cursor:pointer;
+	border-bottom:1px solid #ddd;
+}
+/* currently active header */
+.accordion .tab.current {
+	color:#333;
+	cursor:default;
+	background-color:#fff;
+}
+/* accordion pane */
+.accordion .pane {
+	border-bottom:1px solid #ddd;
+	display:none;
+	padding:10px 15px;
+	font-size:12px;
+	overflow: hidden;
+}
+.accordion .tab:nth-last-child(2) {
+	border-bottom:none;
+}
+.accordion .pane:last-child {
+	border-top:1px solid #ddd;
+	border-bottom:none;
+}
+/* Toggle
+---------------------------------------------------------- */
+.toggle {
+	position:relative;
+	margin-bottom:10px;
+}
+.toggle_title {
+	margin:0;
+	padding:5px 10px 5px 45px;
+	font-size:18px;
+	line-height:18px;
+	background: url("../images/toggle_buttons.png") no-repeat scroll -30px 3px transparent;
+	cursor:pointer;
+}
+.toggle_active {
+	background-position: 0px -27px;
+}
+.toggle_content {
+	padding:10px;
+	margin-top:5px;
+	margin-left:5px;
+	display:none;
+}

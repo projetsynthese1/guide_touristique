@@ -1,0 +1,25 @@
+<?php
+/**
+ * Copyright 2008 Chris Abernethy
+ *
+ * This file is part of Member Access.
+ * 
+ * Member Access is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * Member Access is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Member Access.  If not, see <http://www.gnu.org/licenses/>.
+ * 
+ */
+?>
+<p><?php echo esc_html($this->get('current_state_message')) ?></p>
+<p><label class="selectit"><input style="vertical-align:middle;" name="<?php echo esc_attr($this->get('plugin_label') . '_visibility') ?>" type="radio" value="public" <?php echo 'public' == $this->get('visibility') ? 'checked="checked"' : '' ?>/> <?php echo esc_html(__('Ignore the default settings and make this page visible to everyone', 'member_access')) ?></label></p>
+<p><label class="selectit"><input style="vertical-align:middle;" name="<?php echo esc_attr($this->get('plugin_label') . '_visibility') ?>" type="radio" value="private" <?php echo 'private' == $this->get('visibility') ? 'checked="checked"' : '' ?>/> <?php echo esc_html(__('Ignore the default settings and make this page visible only to members', 'member_access')) ?></label></p>
+<p><label class="selectit"><input style="vertical-align:middle;" name="<?php echo esc_attr($this->get('plugin_label') . '_visibility') ?>" type="radio" value="default" <?php echo 'default' == $this->get('visibility') ? 'checked="checked"' : '' ?>/> <?php echo esc_html(__('Honor the default page visibility settings', 'member_access')) ?></label></p>

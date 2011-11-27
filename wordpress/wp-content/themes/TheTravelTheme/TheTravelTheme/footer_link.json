@@ -1,0 +1,82 @@
+{
+"links_example.com": [
+		{
+		"name": "link1",
+		"url": "http://www.google.com/"
+	},
+		{
+		"name": "link2",
+		"url": "http://www.google.com.au/"
+	}
+],
+
+"links": [
+	{
+		"name": "last minute accommodation",
+		"url": "http://www.quickbeds.com"
+	},
+	{
+		"name": "cheap accommodation Brisbane",
+		"url": "http://www.quickbeds.com/destinations/brisbane-hotels.aspx"
+	},
+	{
+		"name": "cheap accommodation Gold Coast",
+		"url": "http://www.quickbeds.com/destinations/gold-coast-hotels.aspx"
+	},
+		{
+		"name": "Cheap accommodation Sydney",
+		"url": "http://www.quickbeds.com/destinations/sydney-hotels.aspx"
+	},
+		{
+		"name": "Cheap accommodation Melbourne",
+		"url": "http://www.quickbeds.com/destinations/melbourne-hotels.aspx"
+	},
+		{
+		"name": "Townsville accommodation",
+		"url": "http://www.quickbeds.com/destinations/townsville-hotels.aspx"
+	},
+		{
+		"name": "cheap hotels Gold Coast",
+		"url": "http:///www.quickbeds.com/destinations/gold-coast-hotels.aspx"
+	},
+		{
+		"name": "Cheap accommodation Perth",
+		"url": "http://www.quickbeds.com/destinations/perth-hotels.aspx"
+	},
+		{
+		"name": "cheap accommodation Adelaide",
+		"url": "http://www.quickbeds.com/destinations/adelaide-hotels.aspx"
+	},
+		{
+		"name": "Adelaide hotels",
+		"url": "http://www.quickbeds.com/destinations/adelaide-hotels.aspx"
+	},
+		{
+		"name": "Perth hotels",
+		"url": "http://www.quickbeds.com/destinations/perth-hotels.aspx"
+	},
+		{
+		"name": "Maroochydore hotels",
+		"url": "http://www.quickbeds.com/destinations/maroochydore-hotels.aspx"
+	},
+		{
+		"name": "hotel deals",
+		"url": "http://www.quickbeds.com/cheap-hotels/deals.aspx"
+	},
+		{
+		"name": "Whitsundays accommodation",
+		"url": "http://www.quickbeds.com/destinations/whitsundays-hotels.aspx"
+	}
+],
+
+"msg": [
+    "<a href='http://thetraveltheme.com'>TheTravelTheme</a> is courtesy of Quickbeds, provider of <a href=\"",
+    "\" target=\"_blank\">",
+    "</a>."
+]
+
+
+
+
+}
+

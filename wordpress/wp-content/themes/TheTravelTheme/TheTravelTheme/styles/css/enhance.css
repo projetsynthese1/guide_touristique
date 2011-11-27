@@ -1,0 +1,8 @@
+pre,code,.wp-caption,.tabs_container .panes,ul.mini_tabs li,.accordion,.table_style,.framed_box_content,.gravatar,.widget_posts_list .thumbnail {
+	-moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1); /* FF3.5+ */
+	-webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1); /* Saf3.0+, Chrome */
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1); /* Opera 10.5, IE 9.0 */
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+}

@@ -1,0 +1,64 @@
+#feature {
+}
+#feature .inner {
+	padding: 15px 0 15px;
+}
+#feature h1 {
+	font-size:3.5em;
+	margin-bottom: 0;
+	padding: 5px 0;
+}
+#introduce { 
+	font-size:1.8em;
+	line-height:1.3em;
+	font-weight:200;
+	letter-spacing:1px; 
+	padding:5px 0;
+}
+#feature .top_shadow {
+	background:url("../images/feature_t_shadow.png") repeat-x scroll 0 0 transparent;
+	height: 10px;
+	font-size:0px;
+	overflow:hidden;
+	line-height: 10px;
+	display:none;
+}
+#feature .bottom_shadow {
+	background:url("../images/feature_b_shadow.png") repeat-x scroll 0 0 transparent;
+	height: 9px;
+	font-size:0px;
+	line-height:9px;
+	display:none;
+}
+/* Feature box
+---------------------------------------------------------- */
+#feature_box {
+	position:relative;
+}
+.feature_box_image, .feature_box_video {
+	position:relative;
+	margin:0 auto;
+	border:1px solid #ccc;
+	width:960px;
+}
+.feature_box_video {
+	z-index:2;
+	background-color:#fff;
+}
+.feature_box_image img, .feature_box_video object {
+	display:block;
+}
+.feature_box_overlap {
+	z-index:1;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	padding:10px 15px;
+	background-color: #000000;
+	background-color: rgba(0, 0, 0, 0.5);  
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#7F000000',EndColorStr='#7F000000'); 
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#7F000000',EndColorStr='#7F000000')"; 
+}
+.feature_box_title {
+	margin-bottom:5px;
+}

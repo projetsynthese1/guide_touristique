@@ -1,0 +1,299 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Chris Abernethy
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid   ""
+msgstr  "Project-Id-Version: Member Access 1.1\n"
+        "Report-Msgid-Bugs-To: WordPress <wordpress@chrisabernethy.com>\n"
+        "POT-Creation-Date: 2009-02-17 18:28-0500\n"
+        "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+        "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+        "Language-Team: WordPress <wordpress@chrisabernethy.com>\n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=CHARSET\n"
+        "Content-Transfer-Encoding: 8bit\n"
+
+#: build/src/lib/MemberAccess/Structure/View.php:65
+#, php-format
+msgid   "Cannot find view script %1$s in file %2$s on line %3$d"
+msgstr  ""
+
+#: build/src/lib/MemberAccess/Structure.php:63
+#, php-format
+msgid   "Undefined property via __get(): %1$s in file %2$s on line %3$d"
+msgstr  ""
+
+#: build/src/lib/MemberAccess.php:359
+msgid   "Everyone"
+msgstr  ""
+
+#: build/src/lib/MemberAccess.php:360
+msgid   "Members"
+msgstr  ""
+
+#: build/src/lib/MemberAccess.php:362
+msgid   "Default (Everyone)"
+msgstr  ""
+
+#: build/src/lib/MemberAccess.php:364
+msgid   "Default (Members)"
+msgstr  ""
+
+#: build/src/lib/MemberAccess.php:421
+msgid   "Visibility"
+msgstr  ""
+
+#: build/src/lib/MemberAccess.php:446 build/src/lib/MemberAccess.php:526
+#, php-format
+msgid   "%s Settings"
+msgstr  ""
+
+#: build/src/lib/MemberAccess.php:447
+msgid   "Settings"
+msgstr  ""
+
+#: build/src/lib/MemberAccess.php:501
+msgid   "Settings have been saved."
+msgstr  ""
+
+#: build/src/lib/MemberAccess.php:570
+msgid   "By default, pages are currently visible only to members. You can "
+        "override that here or continue to have this page honor the default "
+        "visibility settings."
+msgstr  ""
+
+#: build/src/lib/MemberAccess.php:576
+msgid   "By default, pages are currently visible to everyone. You can override "
+        "that here or continue to have this page honor the default visibility "
+        "settings."
+msgstr  ""
+
+#: build/src/lib/MemberAccess.php:600
+msgid   "By default, posts are currently visible only to members. You can "
+        "override that here or continue to have this post honor the default "
+        "visibility settings."
+msgstr  ""
+
+#: build/src/lib/MemberAccess.php:606
+msgid   "By default, posts are currently visible to everyone. You can override "
+        "that here or continue to have this post honor the default visibility "
+        "settings."
+msgstr  ""
+
+#: build/src/lib/MemberAccess.php:703
+msgid   "A database error was encountered, overrides have not been cleared."
+msgstr  ""
+
+#: build/src/lib/MemberAccess.php:705
+msgid   "Overrides have been cleared."
+msgstr  ""
+
+#: build/src/views/metabox-page.phtml:23
+msgid   "Ignore the default settings and make this page visible to everyone"
+msgstr  ""
+
+#: build/src/views/metabox-page.phtml:24
+msgid   "Ignore the default settings and make this page visible only to members"
+msgstr  ""
+
+#: build/src/views/metabox-page.phtml:25
+msgid   "Honor the default page visibility settings"
+msgstr  ""
+
+#: build/src/views/metabox-post.phtml:23
+msgid   "Ignore the default settings and make this post visible to everyone"
+msgstr  ""
+
+#: build/src/views/metabox-post.phtml:24
+msgid   "Ignore the default settings and make this post visible only to members"
+msgstr  ""
+
+#: build/src/views/metabox-post.phtml:25
+msgid   "Honor the default post visibility settings"
+msgstr  ""
+
+#: build/src/views/options-page.phtml:33
+msgid   "Page Settings"
+msgstr  ""
+
+#: build/src/views/options-page.phtml:36
+msgid   "By default, only members can view pages"
+msgstr  ""
+
+#: build/src/views/options-page.phtml:37
+msgid   "If this option is enabled, only members will be able to view pages. "
+        "This setting can be overridden for individual pages."
+msgstr  ""
+
+#: build/src/views/options-page.phtml:39 build/src/views/options-page.phtml:63
+msgid   "Perform redirect for non-members"
+msgstr  ""
+
+#: build/src/views/options-page.phtml:41
+msgid   "If a non-member accesses a page that is viewable only by members, "
+        "should the user be redirected? If this option is enabled, the user "
+        "will be redirected to the page chosen in the dropdown, otherwise, the "
+        "standard \"Not Found\" page will be displayed."
+msgstr  ""
+
+#: build/src/views/options-page.phtml:45 build/src/views/options-page.phtml:69
+#: build/src/views/options-page.phtml:93 build/src/views/options-page.phtml:117
+#: build/src/views/options-page.phtml:141
+msgid   "Wordpress Login Page"
+msgstr  ""
+
+#: build/src/views/options-page.phtml:50 build/src/views/options-page.phtml:74
+#: build/src/views/options-page.phtml:122
+msgid   "Note that if you select \"Wordpress Login Page\" from the dropdown, "
+        "the user will be sent back to the originally requested page after "
+        "logging in."
+msgstr  ""
+
+#: build/src/views/options-page.phtml:57
+msgid   "Post Settings"
+msgstr  ""
+
+#: build/src/views/options-page.phtml:60
+msgid   "By default, only members can view posts"
+msgstr  ""
+
+#: build/src/views/options-page.phtml:61
+msgid   "If this option is enabled, only members will be able to view posts. "
+        "This setting can be overridden for individual posts."
+msgstr  ""
+
+#: build/src/views/options-page.phtml:65
+msgid   "If a non-member accesses a post that is viewable only by members, "
+        "should the user be redirected? If this option is enabled, the user "
+        "will be redirected to the page chosen in the dropdown, otherwise, the "
+        "standard \"Not Found\" page will be displayed."
+msgstr  ""
+
+#: build/src/views/options-page.phtml:81
+msgid   "Posts Page Settings"
+msgstr  ""
+
+#: build/src/views/options-page.phtml:84
+msgid   "Posts page includes excerpts of content viewable only by members"
+msgstr  ""
+
+#: build/src/views/options-page.phtml:85
+msgid   "Your posts page is configured in Settings->Reading, and is either "
+        "your home page when you elect to display your latest posts on the "
+        "home page, or it is the static page that you designate as your posts "
+        "page. Do you want your posts page to include excerpts of items that "
+        "are viewable only by members? If this option is not enabled, these "
+        "items will be omitted entirely from your posts page."
+msgstr  ""
+
+#: build/src/views/options-page.phtml:87
+msgid   "Perform redirect if all available posts page items are viewable only "
+        "by members"
+msgstr  ""
+
+#: build/src/views/options-page.phtml:89
+msgid   "If a non-member accesses the posts page, all items are viewable only "
+        "to members, and you have not opted to include excerpts of those items "
+        "on the posts page pages, should the user be redirected? If this "
+        "option is enabled, the user will be redirected to the page chosen in "
+        "the dropdown, otherwise, the standard \"Not Found\" page will be "
+        "displayed."
+msgstr  ""
+
+#: build/src/views/options-page.phtml:98
+msgid   "Note that if you select \"Wordpress Login Page\" from the dropdown, "
+        "the user will be sent back to the posts page after logging in."
+msgstr  ""
+
+#: build/src/views/options-page.phtml:105
+msgid   "Archive Settings"
+msgstr  ""
+
+#: build/src/views/options-page.phtml:108
+msgid   "Archive pages include excerpts of content viewable only by members"
+msgstr  ""
+
+#: build/src/views/options-page.phtml:109
+msgid   "Do you want archive pages to include excerpts of items that are "
+        "viewable only by members? If this option is not enabled, these items "
+        "will be omitted entirely from archive pages."
+msgstr  ""
+
+#: build/src/views/options-page.phtml:111
+msgid   "Perform redirect if all available archive items are viewable only by "
+        "members"
+msgstr  ""
+
+#: build/src/views/options-page.phtml:113
+msgid   "If a non-member accesses an archive page for which all items are "
+        "viewable only to members, and you have not opted to include excerpts "
+        "of those items on archive pages, should the user be redirected? If "
+        "this option is enabled, the user will be redirected to the page "
+        "chosen in the dropdown, otherwise, the standard \"Not Found\" page "
+        "will be displayed."
+msgstr  ""
+
+#: build/src/views/options-page.phtml:129
+msgid   "Search Settings"
+msgstr  ""
+
+#: build/src/views/options-page.phtml:132
+msgid   "Search results include excerpts of content viewable only by members"
+msgstr  ""
+
+#: build/src/views/options-page.phtml:133
+msgid   "Do you want search results to include excerpts of items viewable only "
+        "by members? If this option is not enabled, these items will be "
+        "omitted entirely from search results."
+msgstr  ""
+
+#: build/src/views/options-page.phtml:135
+msgid   "Perform redirect if all search results are viewable only by members"
+msgstr  ""
+
+#: build/src/views/options-page.phtml:137
+msgid   "If a non-member performs a search for which all results are viewable "
+        "only to members, and you have not opted to include excerpts of those "
+        "items in search results, should the user be redirected? If this "
+        "option is enabled, the user will be redirected to the page chosen in "
+        "the dropdown, otherwise, the standard \"Not Found\" page will be "
+        "displayed."
+msgstr  ""
+
+#: build/src/views/options-page.phtml:146
+msgid   "Note that if you select \"Wordpress Login Page\" from the dropdown, "
+        "the user will be sent back to the original search result listing "
+        "after logging in."
+msgstr  ""
+
+#: build/src/views/options-page.phtml:153
+msgid   "RSS Settings"
+msgstr  ""
+
+#: build/src/views/options-page.phtml:156
+msgid   "RSS feeds include excerpts of content viewable only by members"
+msgstr  ""
+
+#: build/src/views/options-page.phtml:157
+msgid   "Do you want RSS feeds to include excerpts of items viewable only by "
+        "members? If this option is not enabled, these items will be omitted "
+        "entirely from RSS feeds."
+msgstr  ""
+
+#: build/src/views/options-page.phtml:167
+msgid   "Save Changes"
+msgstr  ""
+
+#: build/src/views/options-page.phtml:168
+msgid   "Clear Post Overrides"
+msgstr  ""
+
+#: build/src/views/options-page.phtml:169
+msgid   "Clear Page Overrides"
+msgstr  ""
+
+#: ../bootstrap.php:5
+msgid   "Member Access is a WordPress plugin that allows an administrator to require that users be logged-in in order to view certain posts and pages."
+msgstr  ""

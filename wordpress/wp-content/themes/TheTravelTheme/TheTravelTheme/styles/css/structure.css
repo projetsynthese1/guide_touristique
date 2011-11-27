@@ -1,0 +1,70 @@
+/* Main Structure
+---------------------------------------------------------- */
+#page {
+	position:relative;
+}
+#main, #sidebar{ position:relative; }
+* html #page, * html #sidebar{ display:inline; }
+.inner{ width:960px; margin:0 auto; position:relative; height:100%;}
+#page .inner { padding: 40px 0 0; }
+#page_bottom {
+	height:30px;
+	background:url("../images/page_bottom_line.png") repeat-x scroll 0 0 transparent;
+}
+/* Right Sidebar
+---------------------------------------------------------- */
+.right_sidebar #main{ float:left; width:630px; }
+.right_sidebar #main .content {
+	width:630px;
+	overflow: hidden;
+}
+.right_sidebar #sidebar {
+	float:right;
+	width:300px;
+	margin: 0 0 0.5em 30px;
+}
+.right_sidebar #sidebar_content {
+	background: url("../images/sidebar_divider.png") no-repeat scroll left top transparent;
+	padding-top:50px;
+	padding-left:25px;
+	min-height:100px;
+	overflow: hidden;
+}
+.right_sidebar #sidebar_content.lessgap {
+	padding-top:22px;
+}
+.right_sidebar #sidebar_bottom {
+	clear:both;
+	background: url("../images/sidebar_divider_bottom.png") no-repeat scroll left top transparent;
+	height:50px;
+}
+/* Left Sidebar
+---------------------------------------------------------- */
+.left_sidebar #main{ float:right; width:630px; }
+.left_sidebar #main .content {
+	width:630px;
+	overflow: hidden;
+}
+.left_sidebar #sidebar {
+	float:left;
+	width:300px;
+	margin: 0 30px 0.5em 0;
+}
+.left_sidebar #sidebar_content {
+	background: url("../images/Lsidebar_divider.png") no-repeat scroll right top transparent;
+	padding-top:50px;
+	padding-right:25px;
+	min-height:100px;
+	overflow: hidden;
+}
+.left_sidebar #sidebar_content.lessgap {
+	padding-top:22px;
+}
+.left_sidebar #sidebar_bottom {
+	clear:both;
+	background: url("../images/Lsidebar_divider_bottom.png") no-repeat scroll right top transparent;
+	height:50px;
+}
+.home #sidebar_content {
+	padding-top:30px;
+}

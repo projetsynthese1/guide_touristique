@@ -1,0 +1,353 @@
+/* dropcap
+---------------------------------------------------------- */
+.dropcap1, .dropcap2, .dropcap3, .dropcap4 {
+	float: left;
+	text-align: center;
+	overflow:hidden;
+}
+.dropcap1 {
+	background:url("../images/dropcap_styles_black.png") no-repeat scroll 0px -48px transparent;
+	color:#fff;
+	line-height: 42px;
+	width: 40px;
+	margin:0 8px -4px 0;
+	font-size: 32px;
+}
+.dropcap1.black {
+	background-image:url("../images/dropcap_styles_black.png");
+}
+.dropcap1.gray {
+	background-image:url("../images/dropcap_styles_gray.png");
+}
+.dropcap1.red {
+	background-image:url("../images/dropcap_styles_red.png");
+}
+.dropcap1.orange {
+	background-image:url("../images/dropcap_styles_orange.png");
+}
+.dropcap1.magenta {
+	background-image:url("../images/dropcap_styles_magenta.png");
+}
+.dropcap1.yellow {
+	background-image:url("../images/dropcap_styles_yellow.png");
+}
+.dropcap1.blue {
+	background-image:url("../images/dropcap_styles_blue.png");
+}
+.dropcap1.pink {
+	background-image:url("../images/dropcap_styles_pink.png");
+}
+.dropcap1.green {
+	background-image:url("../images/dropcap_styles_green.png");
+}
+.dropcap1.rosy {
+	background-image:url("../images/dropcap_styles_rosy.png");
+}
+.dropcap2 {
+	background:url("../images/dropcap_styles_black.png") no-repeat scroll -52px 2px transparent;
+	color:#fff;
+	line-height: 44px;
+	height:44px;
+	width: 38px;
+	padding:0 2px 0 0;
+	margin:0 8px -4px 0;
+	font-size:28px;
+}
+.dropcap2.black {
+	background-image:url("../images/dropcap_styles_black.png");
+}
+.dropcap2.gray {
+	background-image:url("../images/dropcap_styles_gray.png");
+}
+.dropcap2.red {
+	background-image:url("../images/dropcap_styles_red.png");
+}
+.dropcap2.orange {
+	background-image:url("../images/dropcap_styles_orange.png");
+}
+.dropcap2.magenta {
+	background-image:url("../images/dropcap_styles_magenta.png");
+}
+.dropcap2.yellow {
+	background-image:url("../images/dropcap_styles_yellow.png");
+}
+.dropcap2.blue {
+	background-image:url("../images/dropcap_styles_blue.png");
+}
+.dropcap2.pink {
+	background-image:url("../images/dropcap_styles_pink.png");
+}
+.dropcap2.green {
+	background-image:url("../images/dropcap_styles_green.png");
+}
+.dropcap2.rosy {
+	background-image:url("../images/dropcap_styles_rosy.png");
+}
+.dropcap3 {
+	font-size:40px;
+	line-height: 40px;
+	width:44px;
+	height:44px;
+	margin:0 0 -4px 0;
+}
+.dropcap4 {
+	font-size:36px;
+	line-height: 40px;
+	width:44px;
+	height:44px;
+	margin:0 0 -4px 0;
+}
+.dropcap3.black, .dropcap4.black {
+	color: #333333;
+}
+.dropcap3.gray, .dropcap4.gray {
+	color: #666666;
+}
+.dropcap3.red, .dropcap4.red {
+	color: #e62727;
+}
+.dropcap3.orange, .dropcap4.orange {
+	color: #ff5c00;
+}
+.dropcap3.magenta, .dropcap4.magenta {
+	color: #a9014b;
+}
+.dropcap3.yellow, .dropcap4.yellow {
+	color: #ffb515;
+}
+.dropcap3.blue, .dropcap4.blue {
+	color: #00ADEE;
+}
+.dropcap3.pink, .dropcap4.pink {
+	color: #e22092;
+}
+.dropcap3.green, .dropcap4.green {
+	color: #91bd09;
+}
+.dropcap3.rosy, .dropcap4.rosy {
+	color: #f16C7c;
+}
+/** fix cufon position **/
+.dropcap1 .cufon-canvas {
+	margin-top:-4px;
+}
+.dropcap2 .cufon-canvas {
+	margin-top:-2px;
+}
+.dropcap3 .cufon-canvas {
+	margin-top:-4px;
+}
+/* highlight
+---------------------------------------------------------- */
+.highlight {
+	background: #FFFF99;
+}
+.highlight.dark {
+	background: #333;
+	color:#FFF;
+}
+/* code & pre
+---------------------------------------------------------- */
+.code,.pre{
+	border: 1px solid #e0e0e0;
+	padding: 10px;
+	background:#ffffff;
+	white-space: pre-wrap;                 /* CSS3 browsers  */
+	white-space: -moz-pre-wrap !important; /* 1999+ Mozilla  */
+	white-space: -pre-wrap;                /* Opera 4 thru 6 */
+	white-space: -o-pre-wrap;              /* Opera 7 and up */
+	overflow:auto;
+}
+.code {
+	background:url("../images/code_bg.gif") repeat scroll 0 0 #f2f3f5;
+	padding:20px 10px;
+}
+/* blockquote
+---------------------------------------------------------- */
+blockquote {
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-size: 16px;
+	color:#444;
+	line-height: 24px;
+	padding: 10px 20px 10px 45px;
+	background:url("../images/quote.gif") no-repeat scroll 0px 6px transparent;
+}
+blockquote p {
+	margin-bottom:8px;
+}
+blockquote.alignleft {
+	margin: 10px 20px 0 0;
+	width: 220px;
+}
+blockquote.alignright {
+	margin: 10px 0 0 20px;
+	width: 220px;
+}
+blockquote cite {
+	color: #666;
+	font-size: 12px;
+}
+/* list style
+---------------------------------------------------------- */
+ul.list1, ul.list2, ul.list3, ul.list4, ul.list5, ul.list6, ul.list7, ul.list8, ul.list9, ul.list10, ul.list11, ul.list12 {
+	list-style-type:none;
+	margin-left:5px;
+}
+ul.list1 li,ul.list2 li,ul.list3 li,ul.list4 li,ul.list5 li,ul.list6 li,ul.list7 li,ul.list8 li,ul.list9 li,ul.list10 li,ul.list11 li,ul.list12 li {
+	background-image:url("../images/list_styles_black.png");
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	background-color:transparent;
+	padding-left:28px;
+	margin:4px 0;
+}
+ul.list1 li{
+	background-position: -340px 0px;
+}
+ul.list2 li{
+	background-position: -310px -30px;
+}
+ul.list3 li{
+	background-position: -280px -60px;
+}
+ul.list4 li{
+	background-position: -250px -90px;
+}
+ul.list5 li{
+	background-position: -220px -120px;
+}
+ul.list6 li{
+	background-position: -190px -150px;
+}
+ul.list7 li{
+	background-position: -160px -180px;
+}
+ul.list8 li{
+	background-position: -130px -210px;
+}
+ul.list9 li{
+	background-position: -100px -240px;
+}
+ul.list10 li{
+	background-position: -70px -270px;
+}
+ul.list11 li{
+	background-position: -40px -300px;
+}
+ul.list12 li{
+	background-position: -10px -330px;
+}
+ul.list_color_black li {
+	background-image:url("../images/list_styles_black.png");
+}
+ul.list_color_gray li {
+	background-image:url("../images/list_styles_gray.png");
+}
+ul.list_color_red li {
+	background-image:url("../images/list_styles_red.png");
+}
+ul.list_color_orange li {
+	background-image:url("../images/list_styles_orange.png");
+}
+ul.list_color_magenta li {
+	background-image:url("../images/list_styles_magenta.png");
+}
+ul.list_color_yellow li {
+	background-image:url("../images/list_styles_yellow.png");
+}
+ul.list_color_blue li {
+	background-image:url("../images/list_styles_blue.png");
+}
+ul.list_color_pink li {
+	background-image:url("../images/list_styles_pink.png");
+}
+ul.list_color_green li {
+	background-image:url("../images/list_styles_green.png");
+}
+ul.list_color_rosy li {
+	background-image:url("../images/list_styles_rosy.png");
+}
+/* Text with icons
+---------------------------------------------------------- */
+.icon_text {
+	padding:0 0 0 22px;
+	background-image:url("../images/icons.png");
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	background-color:transparent;
+}
+#footer .icon_text {
+	background-image:url("../images/footer_icons.png");
+}
+.icon_globe {
+	background-position: -390px 0px;
+}
+.icon_home {
+	background-position: -360px -30px;
+}
+.icon_email {
+	background-position: -330px -60px;
+}
+.icon_user {
+	background-position: -300px -90px;
+}
+.icon_multiuser {
+	background-position: -270px -120px;
+}
+.icon_id {
+	background-position: -240px -150px;
+}
+.icon_addressbook {
+	background-position: -210px -180px;
+}
+.icon_phone {
+	background-position: -180px -210px;
+}
+.icon_link {
+	background-position: -150px -240px;
+}
+.icon_chain {
+	background-position: -120px -270px;
+}
+.icon_calendar {
+	background-position: -90px -300px;
+}
+.icon_tag {
+	background-position: -60px -330px;
+}
+.icon_download {
+	background-position: -30px -360px;
+}
+.icon_cellphone {
+	background-position: 1px -390px;
+}
+.icon_text.black {
+	background-image:url("../images/icons_black.png");
+}
+.icon_text.gray {
+	background-image:url("../images/icons_gray.png");
+}
+.icon_text.red {
+	background-image:url("../images/icons_red.png");
+}
+.icon_text.orange {
+	background-image:url("../images/icons_orange.png");
+}
+.icon_text.magenta {
+	background-image:url("../images/icons_magenta.png");
+}
+.icon_text.yellow {
+	background-image:url("../images/icons_yellow.png");
+}
+.icon_text.blue {
+	background-image:url("../images/icons_blue.png");
+}
+.icon_text.pink {
+	background-image:url("../images/icons_pink.png");
+}
+.icon_text.green {
+	background-image:url("../images/icons_green.png");
+}
+.icon_text.rosy {
+	background-image:url("../images/icons_rosy.png");
+}

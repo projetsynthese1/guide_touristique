@@ -1,0 +1,366 @@
+# Japanese translation for WordPress Striking Theme.
+# Copyright (C) 2010 WordPress contributors.
+# This file is distributed under the same license as the WordPress package.
+# C.J <429000366@qq.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordpress Striking Theme Japanese Translation\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2010-10-26 05:02+0800\n"
+"Last-Translator: Kaptinlin <kaptinlin@gmail.com>\n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+# <form method="get" id="searchform" action="<?php bloginfo('url'); ?>">
+# <input type="text" class="text_input" value="<?php _e('Search..', 'striking_front');?>" name="s" id="s" onfocus="if(this.value == '<?php _e('Search..', 'striking_front');?>') {this.value = '';}" onblur="if (this.value == '') {this.value = '<?php _e('Search..', 'striking_front');?>';}" />
+# <button type="submit" class="button white"><span><?php _e('Search', 'striking_front');?></span></button>
+msgid "Search.."
+msgstr "検索"
+# <?php if ( is_user_logged_in() ) : ?>
+# <p class="logged"><?php printf( __( 'Logged in as <a href="%1$s">%2$s</a>. <a href="%3$s" title="Log out of this account">Log out?</a>','striking_front'), admin_url( 'profile.php' ), $user_identity, wp_logout_url( get_permalink( $post_id )  ) )?></p>
+# <?php else : ?>
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr "<a href=\"%1$s\">%2$s</a> としてログインしています。<a href=\"%3$s\" title=\"このアカウントからログアウトする\">ログアウトしますか ?</a></p>"
+# <?php if ( get_option('comment_registration') && !is_user_logged_in() ) : ?>
+# <p><?php printf(__('You must be <a href="%s">logged in</a> to post a comment','striking_front'),wp_login_url( get_permalink() )); ?></p>
+# <?php else : ?>
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment"
+msgstr "コメントを投稿するには<a href=\"%s\">ログイン</a>してください。"
+# <div id="respond">
+# <h3><?php comment_form_title( __('Leave a Reply','striking_front'), __('Leave a Reply to %s','striking_front') ); ?></h3>
+# <div class="cancel_comment_reply">
+msgid "Leave a Reply to %s"
+msgstr "%s への返信"
+# <div id="respond">
+# <h3><?php comment_form_title( __('Leave a Reply','striking_front'), __('Leave a Reply to %s','striking_front') ); ?></h3>
+# <div class="cancel_comment_reply">
+msgid "Leave a Reply"
+msgstr "コメントをどうぞ"
+# <div class="comment_meta">
+# <?php printf( '<cite class="comment_author">%s</cite>', get_comment_author_link()) ?><?php edit_comment_link(__('(Edit)', 'striking_front' ),'  ','') ?>
+# <time class="comment_time"><?php echo get_comment_date(); ?></time>
+msgid "(Edit)"
+msgstr "(編集)"
+# <p><textarea class="textarea" name="comment" id="comment" cols="70" rows="10" tabindex="4"></textarea></p>
+# <p><a class="button medium white" href="#" onclick="jQuery('#commentform').submit();return false;"><span><?php _e('Post Comment','striking_front');?></span></a><?php comment_id_fields(); ?></p>
+# <p><?php do_action('comment_form', $post->ID); ?></p>
+msgid "Post Comment"
+msgstr "コメントを送信"
+# <p><input type="text" name="url" class="text_input" id="url" value="<?php echo $comment_author_url; ?>" size="22" tabindex="3" />
+# <label for="url"><?php _e('Website','striking_front'); ?></label></p>
+#
+msgid "Website"
+msgstr "ウェブサイト"
+# <p><input type="text" name="email" class="text_input" id="email" value="<?php echo $comment_author_email; ?>" size="22" tabindex="2" />
+# <label for="email"><?php _e('Email','striking_front');  if ($req) echo " *"; ?></label></p>
+#
+msgid "Email"
+msgstr "Eメール"
+# <p><input type="text" name="author" class="text_input" id="author" value="<?php echo $comment_author; ?>" size="22" tabindex="1"  />
+# <label for="author"><?php _e('Name','striking_front');  if ($req) echo " *"; ?></label></p>
+#
+msgid "Name"
+msgstr "名前"
+# <?php if ( post_password_required() ) : ?>
+# <p class="nopassword"><?php _e( 'This post is password protected. Enter the password to view any comments.', 'striking_front' ); ?></p>
+# </section><!-- #comments -->
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "この投稿はパスワードで保護されています。表示するにはパスワードを入力してください。"
+# <?php if ($comment->comment_approved == '0') : ?>
+# <span class="unapproved"><?php _e('Your comment is awaiting moderation.','striking_front') ?></span>
+# <?php endif; ?>
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは管理者の承認待ちです。"
+# if(empty($success)){
+# $success = __('Your message was successfully sent. <strong>Thank You!</strong>','striking_front');
+# }
+msgid "Your message was successfully sent. <strong>Thank You!</strong>"
+msgstr ""
+# ?>
+# <a class="read_more_link" href="<?php the_permalink(); ?>"><?php echo __('Read more &raquo;','striking_front')?></a>
+# <?php endif; ?>
+msgid "Read more &raquo;"
+msgstr "もっと読む &raquo"
+# $more = 0;
+# the_content(__("Read More", 'striking_front'),false);
+# else:
+msgid "Read More"
+msgstr "もっと読む"
+# $output .= '<span>'.__('Show:','striking_front').'</span>';
+# $output .= '<a data-value="all" href="#">'.__('All','striking_front').'</a>';
+# $terms = array();
+msgid "All"
+msgstr "すべて"
+# $output .= '<header class="sort_by_cat">';
+# $output .= '<span>'.__('Show:','striking_front').'</span>';
+# $output .= '<a data-value="all" href="#">'.__('All','striking_front').'</a>';
+msgid "Show:"
+msgstr "表示する"
+# $uploads = wp_upload_dir();
+# $noflash = __('You need to <a href="http://www.adobe.com/products/flashplayer/" target="_blank">upgrade your Flash Player</a> to version 10 or newer.','striking_front');
+# $output = <<<HTML
+msgid "You need to <a href=\"http://www.adobe.com/products/flashplayer/\" target=\"_blank\">upgrade your Flash Player</a> to version 10 or newer."
+msgstr " <a href=\"http://www.adobe.com/products/flashplayer/\" target=\"_blank\">Adobe Flash Player 10.0 以上のバージョンに更新してください</a>"
+# $related_post_found = true;
+# $output .= '<h3>'.__('Related Posts','striking_front').'</h3>';
+# $output .= '<section class="related_posts_wrap">';
+msgid "Related Posts"
+msgstr ""
+# if (is_search()) {
+# $title = __('Search','striking_front');
+# $text = sprintf(__('Search Results for: ‘%s’','striking_front'),stripslashes( strip_tags( get_search_query() ) ));
+msgid "Search"
+msgstr "検索する"
+# $title = __('404 - Not Found','striking_front');
+# $text = __("Looks like the page you're looking for isn't here anymore. Try using the search box or sitemap below.",'striking_front');
+# }
+msgid "Looks like the page you're looking for isn't here anymore. Try using the search box or sitemap below."
+msgstr "検索しているページもうここではありません。下記の検索ボックスまたはサイトマップを使用してみてください"
+# if (is_404()) {
+# $title = __('404 - Not Found','striking_front');
+# $text = __("Looks like the page you're looking for isn't here anymore. Try using the search box or sitemap below.",'striking_front');
+msgid "404 - Not Found"
+msgstr "404 - 未検出"
+# }elseif(isset($_GET['paged']) && !empty($_GET['paged'])) {
+# $text = __('Blog Archives','striking_front');
+# }elseif(is_tax()){
+msgid "Blog Archives"
+msgstr "ブログアーカイブ"
+# if(is_category()){
+# $text = sprintf(__('Category Archive for: ‘%s’','striking_front'),single_cat_title('',false));
+# }elseif(is_tag()){
+msgid "Category Archive for: ‘%s’"
+msgstr "カテゴリーアーカイブ: ‘%s’"
+# if (is_archive()){
+# $title = __('Archives','striking_front');
+# if(is_category()){
+msgid "Archives"
+msgstr "アーカイブ"
+# if ( $paged >= 2 || $page >= 2 )
+# echo ' | ' . sprintf( __( 'Page %s', 'striking_front' ), max( $paged, $page ) );
+# }
+msgid "Page %s"
+msgstr "ページ"
+# <section id="about_the_author">
+# <h3><?php _e('About the author','striking_front');?></h3>
+# <div class="author_content">
+msgid "About the author"
+msgstr ""
+# extract( $args );
+# $title = apply_filters('widget_title', empty($instance['title']) ? __('Contact Us', 'striking_front') : $instance['title'], $instance, $this->id_base);
+# $color = $instance['color'];
+msgid "Contact Us"
+msgstr "お問い合わせ"
+# extract( $args );
+# $title = apply_filters('widget_title', empty($instance['title']) ? __('Email Us', 'striking_front') : $instance['title'], $instance, $this->id_base);
+# $email= $instance['email'];
+msgid "Email Us"
+msgstr "Eメールはこちら"
+#
+# $title = apply_filters('widget_title', empty($instance['title']) ? __('Recent Posts', 'striking_front') : $instance['title'], $instance, $this->id_base);
+# if ( !$number = (int) $instance['number'] )
+msgid "Recent Posts"
+msgstr "最近の投稿"
+# extract( $args );
+# $title = apply_filters('widget_title', empty($instance['title']) ? __('Recent Tweets', 'striking_front') : $instance['title'], $instance, $this->id_base);
+# $username= $instance['username'];
+msgid "Recent Tweets"
+msgstr "最近のTweets"
+# extract( $args );
+# $title = apply_filters('widget_title', empty($instance['title']) ? __('Photos on flickr', 'striking_front') : $instance['title'], $instance, $this->id_base);
+# $flickr_id = $instance['flickr_id'];
+msgid "Photos on flickr"
+msgstr "flickrの写真"
+#
+# $title = apply_filters('widget_title', empty($instance['title']) ? __('Popular Posts', 'striking_front') : $instance['title'], $instance, $this->id_base);
+# if ( !$number = (int) $instance['number'] )
+msgid "Popular Posts"
+msgstr "人気の投稿"
+# 'prev_text' => __('&laquo;','striking_front'),
+# 'dotright_text' => __('...','striking_front'),
+# 'dotleft_text' => __('...','striking_front'),
+msgid "..."
+msgstr "..."
+# 'next_text' => __('&raquo;','striking_front'),
+# 'prev_text' => __('&laquo;','striking_front'),
+# 'dotright_text' => __('...','striking_front'),
+msgid "&laquo;"
+msgstr "&laquo;"
+# 'last_text' => __('Last &raquo;','striking_front'),
+# 'next_text' => __('&raquo;','striking_front'),
+# 'prev_text' => __('&laquo;','striking_front'),
+msgid "&raquo;"
+msgstr "&raquo;"
+# 'first_text' => __('&laquo; First','striking_front'),
+# 'last_text' => __('Last &raquo;','striking_front'),
+# 'next_text' => __('&raquo;','striking_front'),
+msgid "Last &raquo;"
+msgstr "最後 &raquo;"
+# 'page_text' => '%PAGE_NUMBER%',
+# 'first_text' => __('&laquo; First','striking_front'),
+# 'last_text' => __('Last &raquo;','striking_front'),
+msgid "&laquo; First"
+msgstr "&laquo; 最初"
+# $output = $homelink . ' ' . $separator . ' ';
+# $output .= bold( __( 'Page Not Found', 'striking_front' ), $r['bold'] );
+#
+msgid "Page Not Found"
+msgstr "ページ未検索"
+# $output = $homelink . ' ' . $separator . ' ';
+# $output .= bold( sprintf(__( 'Search Results for: ‘%s’', 'striking_front' ),stripslashes( strip_tags( get_search_query() ) ) ), $r['bold'] );
+#
+msgid "Search Results for: ‘%s’"
+msgstr "検索結果"
+# }
+# $output .= bold( sprintf(__('Author Archive for: ‘%s’','striking_front'),$curauth->nickname), $r['bold'] );
+# }
+msgid "Author Archive for: ‘%s’"
+msgstr "作成者アーカイブ: ‘%s’"
+# elseif ( is_year() )
+# $output .= bold( sprintf(__('Yearly Archive for: ‘%s’','striking_front'),get_the_time('Y')), $r['bold'] );
+#
+msgid "Yearly Archive for: ‘%s’"
+msgstr "年別アーカイブ: ‘%s’"
+# elseif ( is_month() )
+# $output .= bold( sprintf(__('Monthly Archive for: ‘%s’','striking_front'),get_the_time('F, Y')), $r['bold'] );
+#
+msgid "Monthly Archive for: ‘%s’"
+msgstr "月別アーカイブ: ‘%s’"
+# if ( is_day() )
+# $output .= bold( sprintf(__('Daily Archive for: ‘%s’','striking_front'),get_the_time('F jS, Y')), $r['bold'] );
+#
+msgid "Daily Archive for: ‘%s’"
+msgstr "デイリーアーカイブ: ‘%s’"
+# $term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) );
+# $text = sprintf(__('Archives for: ‘%s’','striking_front'),$term->name);
+#
+msgid "Archives for: ‘%s’"
+msgstr "アーカイブ: ‘%s’"
+# } elseif ( is_tag() ){
+# $output .= bold( sprintf(__('Tag Archives for: ‘%s’','striking_front'),single_tag_title('',false)), $r['bold'] );
+#
+msgid "Tag Archives for: ‘%s’"
+msgstr "タグアーカイブ: ‘%s’"
+# 'bold' => false,
+# 'blog' => __( 'Blog', 'striking_front' ),
+# 'echo' => true
+msgid "Blog"
+msgstr "ブログ"
+# 'title' => __( 'You are here: ', 'striking_front' ),
+# 'home' => __( 'Home', 'striking_front' ),
+# 'sep' => '&raquo;',
+msgid "Home"
+msgstr "ホーム"
+# 'suffix' => '</p>',
+# 'title' => __( 'You are here: ', 'striking_front' ),
+# 'home' => __( 'Home', 'striking_front' ),
+msgid "You are here: "
+msgstr "いまここで: "
+# <?php edit_post_link( __( 'Edit', 'striking_front' ), '<span class="separater">|</span> <span class="edit-link">', '</span>' ); ?>
+# <span class="comments"><?php comments_popup_link(__('No Comments','striking_front'), __('1 Comment','striking_front'), __('% Comments','striking_front')); ?></span>
+# </div>
+msgid "% Comments"
+msgstr "% コメント"
+# <?php edit_post_link( __( 'Edit', 'striking_front' ), '<span class="separater">|</span> <span class="edit-link">', '</span>' ); ?>
+# <span class="comments"><?php comments_popup_link(__('No Comments','striking_front'), __('1 Comment','striking_front'), __('% Comments','striking_front')); ?></span>
+# </div>
+msgid "1 Comment"
+msgstr "1 コメント"
+# <?php edit_post_link( __( 'Edit', 'striking_front' ), '<span class="separater">|</span> <span class="edit-link">', '</span>' ); ?>
+# <span class="comments"><?php comments_popup_link(__('No Comments','striking_front'), __('1 Comment','striking_front'), __('% Comments','striking_front')); ?></span>
+# </div>
+msgid "No Comments"
+msgstr "コメントなし"
+# <div class="entry_meta">
+# <span class="categories"><?php _e('Posted in: ', 'striking_front');  the_category(', '); ?></span>
+# <span class="separater">|</span>
+msgid "Posted in: "
+msgstr "ここで掲示された: "
+# <?php while ($archive_query->have_posts()) : $archive_query->the_post(); ?>
+# <li><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf( __("Permanent Link to %s", 'striking_front'), get_the_title() ); ?>"><?php the_title(); ?></a> (<?php comments_number('0', '1', '%'); ?>)</li>
+# <?php endwhile; ?>
+msgid "Permanent Link to %s"
+msgstr "%s へのパーマリンク"
+# <ul>
+# <?php wp_list_categories( array( 'exclude'=> implode(",",$exclude_cats), 'feed' => __( 'RSS', 'striking_front' ), 'show_count' => true, 'use_desc_for_title' => false, 'title_li' => false ) ); ?>
+# </ul>
+msgid "RSS"
+msgstr "RSS"
+# ?>
+# <h2><?php _e( 'Blog Posts','striking_front' ); ?></h2>
+# <ul>
+msgid "Blog Posts"
+msgstr "ブログ投稿"
+# ?>
+# <h2><?php _e( 'Category Archives','striking_front'); ?></h2>
+# <ul>
+msgid "Category Archives"
+msgstr "カテゴリーアーカイブ"
+# </ul>
+# <div class="divider top"><a href="#"><?php _e('Top','striking_front');?></a></div>
+#
+msgid "Top"
+msgstr "上"
+# <div class="content">
+# <h2><?php _e('Pages','striking_front');?></h2>
+# <ul>
+msgid "Pages"
+msgstr "ページ"
+# <?php the_content(); ?>
+# <?php edit_post_link(__('Edit', 'striking_front'),'<footer><p class="entry_edit">','</p></footer>'); ?>
+# <div class="clearboth"></div>
+msgid "Edit"
+msgstr "編集"
+# printf( _n( 'One Response to %2$s', '%1$s Responses to %2$s', get_comments_number(), 'striking_front' ),
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] ""
+msgstr[1] ""
+# twitter widget
+msgid "about %d seconds ago"
+msgstr ""
+# twitter widget
+msgid "about a minute ago"
+msgstr ""
+# twitter widget
+msgid "about %d minutes ago"
+msgstr ""
+# twitter widget
+msgid "about an hour ago"
+msgstr ""
+# twitter widget
+msgid "about %d hours ago"
+msgstr ""
+# twitter widget
+msgid "about a day ago"
+msgstr ""
+# twitter widget
+msgid "about %d days ago"
+msgstr ""
+# twitter widget
+msgid "view tweet on twitter"
+msgstr ""
+# <label for="contact_name"><?php _e('Name *', 'striking_front'); ?></label>
+msgid "Name *"
+msgstr ""
+# <label for="contact_email"><?php _e('Email *', 'striking_front'); ?></label>
+msgid "Email *"
+msgstr ""
+# <button type="submit" class="button white"><span><?php _e('Submit', 'striking_front'); ?></span></button>
+msgid "Submit"
+msgstr ""
+# Previous post link
+msgid "Previous post link"
+msgstr ""
+# Next post link
+msgid "Next post link"
+msgstr ""
+# Previous portfolio link
+msgid "Previous portfolio link"
+msgstr ""
+# Next portfolio link
+msgid "Next portfolio link"
+msgstr ""

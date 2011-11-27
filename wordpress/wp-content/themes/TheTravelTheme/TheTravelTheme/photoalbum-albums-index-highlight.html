@@ -1,0 +1,43 @@
+<?php
+/*
+Copy this file into your current active theme's directory to customize this template
+This template highlights the first album
+*/
+if (count($albums) > 0):
+$album = array_shift($albums);
+$highlight = $flickr->getPhotoSizes($album['primary']);
+$photos = $flickr->getPhotos($album['id']);
+?>
+<div id="highlight">
+<h2 class="album_title"><a href="album/<?php echo $album['id']?>/<?php echo $album['pagename']?>"><?php echo $album['title']?></a></h2>
+<p class="meta">
+    <?php printf(__('%d Photos', 'tantan-flickr'), $album['photos']);?> | 
+    <a href="album/<?php echo $album['id']?>/<?php echo $album['pagename']?>" onclick="return openSlideShow('<?php echo $album['id']?>')"><?php _e('View slideshow &gt;', 'tantan-flickr');?></a>
+</p>
+<ul class="album_photos">
+<?php foreach ($photos as $photo){
+	echo '<li class="album_photo">';
+	echo '<div class="image_styled album_photo_image">';
+	echo '<span class="image_frame" style="width:292px;height:180px"><a class="image_icon_zoom" href="'.TanTanFlickrDisplay::href($photo, $album).'"><img width="292" height="180" src="'.THEME_INCLUDES.'/timthumb.php?src='.$photo['sizes']['Medium']['source'].'&amp;h=180&amp;w=292&amp;zc=1" /></a></span><img class="image_shadow" width="294" src="'.THEME_IMAGES.'/image_shadow.png"/>';
+	echo '</div>';
+	echo '<div class="album_photo_details">';
+	echo '<h3 class="album_photo_title"><a href="'.TanTanFlickrDisplay::href($photo, $album).'">';
+	echo $photo['title'];
+	echo '</a></h3>';
+	echo '<div class="album_photo_meta">';
+	if (is_array($photo['tags']) && (($numTags = count($photo['tags'])) > 0)){
+		echo '<div><strong>'.__('Tags: ', 'tantan-flickr').'</strong>'; 
+		foreach ($photo['tags'] as $k => $tag){
+			echo '<a href="tags/'.$tag.'/">'.$tag.'</a>'.(($k+1 < $numTags)?', ':'');
+		}
+		echo '</div>';
+	}
+	echo '<div><strong>'.__('Uploaded: ', 'tantan-flickr').'</strong> '.date(__('F j, Y', 'tantan-flickr'), (int) $photo['dates']['posted']).'</div>';
+	echo '</div>';
+	echo '</div>';
+	echo '</li>';
+}
+?>
+</ul>
+</div>
+<?php endif; ?>

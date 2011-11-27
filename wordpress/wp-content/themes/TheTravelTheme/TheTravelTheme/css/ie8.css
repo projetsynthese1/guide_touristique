@@ -1,0 +1,4 @@
+.jqueryslidemenu ul li ul {
+	display:none;
+	visibility:visible;
+}

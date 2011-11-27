@@ -1,0 +1,42 @@
+<?php 
+/*
+Copy this file into your current active theme's directory to customize this template
+This template displays one photo, along with comments, meta data, and links to the next and previous photo (if available)
+*/
+global $TanTanFlickrPlugin;
+/*<h2><?php echo $photo['title']?></h2>*/
+?>
+<?php include($TanTanFlickrPlugin->getDisplayTemplate('/photoalbum-nav.html'));?>
+<div id="photo">
+	<?php
+	$size_keys = array('Large','Medium 640','Medium','Small','Thumbnail','Square');
+	foreach($size_keys as $size_key){
+		if(array_key_exists($size_key,$sizes)){
+			$selected = $sizes[$size_key];
+			break;
+		}
+	}
+	if($selected['width']>958){
+		$width = 958;
+		$height = round(958*$selected['height']/$selected['width']);
+	}else{
+		$width = $selected['width'];
+		$height = $selected['height'];
+	}
+	echo '<span class="image_styled"><span class="image_frame" style="width:'.$width.'px;height:'.$height.'px"><a class="image_no_link" href="#"><img width="'.$width.'" height="'.$height.'" '. 'src="'.THEME_INCLUDES.'/timthumb.php?src='.$selected['source'].'&amp;h='.$height.'&amp;w='. $width .'&amp;zc=1" /></a></span><img class="image_shadow" width="'.($width+2).'" src="'.THEME_IMAGES.'/image_shadow.png"/></span>';
+?>
+<?php if (is_array($photo['notes']['note'])):?>
+<div id="notes">
+    <?php foreach ($photo['notes']['note'] as $note):?>
+    <div class="note" style="top:<?php echo $note['y']?>px;left:<?php echo $note['x']?>px;">
+        <div class="hover2"><div class="hover" style="width:<?php echo $note['w']?>px;height:<?php echo $note['h']?>px;"></div></div>
+        <div class="text"><?php echo ($note['_content'] ? $note['_content'] : $note['_value'])?></div>
+    </div>
+    <?php endforeach;?>
+</div>
+<?php endif;?>
+</div>
+<p><?php echo apply_filters('the_content', $photo['description']);?></p>
+<?php include($TanTanFlickrPlugin->getDisplayTemplate('/photoalbum-photometa.html'));?>
+<?php include($TanTanFlickrPlugin->getDisplayTemplate('/photoalbum-comments.html')); ?>
+<?php include($TanTanFlickrPlugin->getDisplayTemplate('/photoalbum-context.html')); ?>

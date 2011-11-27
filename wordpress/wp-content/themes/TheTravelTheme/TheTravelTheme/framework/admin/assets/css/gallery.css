@@ -1,0 +1,39 @@
+#gallery_actions {
+	margin-bottom:10px;
+}
+#galleryTableWrapper tr td, #galleryTableWrapper tr th {
+	padding-bottom:8px;
+	padding-top:8px;
+	vertical-align:top;
+}
+#galleryTableWrapper tr td {
+	border:none;
+}
+#galleryTableWrapper td table td {
+	border:0 none;
+	padding:2px;
+	vertical-align:middle;
+}
+.sortItem .handle {
+	cursor:move;
+	vertical-align:top;
+	width:24px;
+}
+.sortItem table {
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px; 
+	background-color:#EFEFEF;
+	border:1px solid #D0D0D0;
+	margin:0 0 3px;
+}
+#imagesSortable .sortItem-placeholder {
+	height:67px;
+	border: 1px dashed #bbb;
+	background-color: #ffffee;
+}
+.sortItem .handle div {
+	background:url("../images/vdrag.png") no-repeat scroll 0 0 transparent;
+	height:60px;
+	width:24px;
+}

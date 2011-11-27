@@ -1,0 +1,97 @@
+/* Basic image style
+---------------------------------------------------------- */
+.preloading {
+	background:url("../images/loading.gif") #f9f9f9 no-repeat 50% 50%;
+}
+img.alignleft, .wp-caption.alignleft{
+	margin:2px 16px 2px 2px !important;
+}
+img.alignright, .wp-caption.alignright {
+	margin:2px 2px 2px 16px !important;
+}
+img.aligncenter, .wp-caption.aligncenter {
+	display: block;
+	margin: 2px auto !important;
+	text-align: center;
+}
+/* wp default image
+---------------------------------------------------------- */
+.wp-caption {
+	background: #f5f5f5;
+	border: 1px solid #ddd;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	text-align: center;
+}
+.wp-caption img {
+	border: 0 none;
+	margin: 0;
+	padding: 0;
+}
+p.wp-caption-text {
+	font-size: 12px;
+	line-height: 16px;
+	margin: 0;
+	padding: 0 5px 5px;
+	text-align: center;
+}
+/* Image with frame
+---------------------------------------------------------- */
+.image_styled {
+	margin-bottom: 10px;
+}
+.image_styled.aligncenter .image_frame,.image_styled.aligncenter .image_shadow{
+	margin: 0 auto;
+}
+.image_frame {
+	background-color:#f9f9f9;
+	position: relative;
+}
+.image_styled,.image_frame,.image_styled img {
+	display: block;
+}
+.image_frame {
+	border:1px solid #eee;
+}
+.image_overlay{
+	position:absolute;
+	top:0;
+	height:100%;
+	width:100%;
+	visibility:hidden;
+	overflow: hidden;
+}
+.image_icon_zoom .image_overlay {
+	background:url("../images/image_icon_zoom.png") no-repeat scroll 50% 50% transparent;
+}
+.image_icon_play .image_overlay {
+	background:url("../images/image_icon_play.png") no-repeat scroll 50% 50% transparent;
+}
+.image_icon_doc .image_overlay {
+	background:url("../images/image_icon_doc.png") no-repeat scroll 50% 50% transparent;
+}
+.image_icon_link .image_overlay {
+	background:url("../images/image_icon_link.png") no-repeat scroll 50% 50% transparent;
+}
+.image_styled.alignleft {
+	margin-right:16px;
+}
+.image_styled.alignright {
+	margin-left:16px;
+}
+.image_no_link {
+	cursor: default;
+}
+/* Picture Frame
+---------------------------------------------------------- */
+.picture_frame {
+	background:url("../images/picture_frame.png") no-repeat scroll 0 0 transparent;
+	height:166px;
+	width:148px;
+	margin-bottom:20px;
+}
+.picture_frame img{
+	padding:20px 21px 20px 21px;
+	width:106px;
+	height:126px;
+}

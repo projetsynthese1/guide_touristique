@@ -1,0 +1,82 @@
+#navigation {
+	right: -15px;
+	bottom: 0;
+	position: absolute;
+	height: 60px;
+}
+.jqueryslidemenu {
+	position: relative;
+	z-index: 200;
+}
+.jqueryslidemenu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+/*Top level list items*/
+.jqueryslidemenu ul li {
+	position: relative;
+	display: inline;
+	float: left;
+	margin: 0px;
+}
+/*Top level menu link items style*/
+.jqueryslidemenu ul li a {
+	display: block;
+	height: 60px;
+	line-height: 56px;
+	text-decoration: none;
+	overflow:hidden; 
+	padding:0 15px;
+	background:url("../images/blank.gif") 0 0 repeat;
+}
+* html .jqueryslidemenu ul li a {
+	/*IE6 hack to get sub menu links to behave correctly*/
+	display: inline-block;
+}
+/* 1st sub level menu
+---------------------------------------------------------- */
+.jqueryslidemenu ul li ul {
+	position: absolute;
+	left: 0;
+	display: block;
+	padding: 3px 0;
+	visibility: hidden;
+	border: 1px solid #BBBBBB;
+	border-top: 0;
+}
+/*Sub level menu list items (undo style from Top level List Items)*/
+.jqueryslidemenu ul li ul li {
+	display: list-item;
+	float: none;
+	margin: 0;
+}
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.jqueryslidemenu ul li ul li ul {
+	top: 0;
+	border: 1px solid #ccc;
+	padding: 2px 0;
+}
+/* Sub level menu links style */
+.jqueryslidemenu ul li ul li a {
+	width: 200px;
+	padding: 5px 15px 7px;
+	margin: 0;
+}
+.jqueryslidemenu ul ul li a, .jqueryslidemenu ul ul li a:link, .jqueryslidemenu ul ul li a:visited {
+	height: 100%;
+	line-height: 20px;
+}
+.jqueryslidemenu ul li ul li a:hover, .jqueryslidemenu ul ul li a:hover {
+	padding: 5px 15px 7px;
+	border-left:0;
+	border-right:0;
+}
+.jqueryslidemenu ul ul ul{
+	margin-top:-5px;
+}
+.jqueryslidemenu ul li ul{
+	-webkit-box-shadow: 1px 2px 3px #333;
+	-moz-box-shadow: 1px 2px 3px #333;
+	box-shadow: 1px 2px 3px #333; 
+}

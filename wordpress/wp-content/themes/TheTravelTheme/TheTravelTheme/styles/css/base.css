@@ -1,0 +1,151 @@
+/* Basic typography
+---------------------------------------------------------- */
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Sans", "Lucida Grande", Arial, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #333;
+}
+strong, th, thead td {
+	font-weight: bold;
+}
+cite, em, dfn {
+	font-style: italic;
+}
+code, kbd, samp, pre, tt, var, input[type=text], input[type=password], input[type=email], textarea {
+	font-family: "Consolas","Bitstream Vera Sans Mono","Courier New",Courier,monospace;
+}
+code, pre {
+	display: block;
+	white-space: pre;
+}
+del {
+	text-decoration: line-through;
+	color: #666;
+}
+ins, dfn {
+	border-bottom: 1px solid #ccc;
+}
+small, sup, sub {
+	font-size: 85%;
+}
+abbr, acronym {
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+a abbr, a acronym {
+	border: none;
+}
+abbr[title], acronym[title], dfn[title] {
+	cursor: help;
+	border-bottom: 1px dotted #ccc;
+}
+sup {
+	vertical-align: super;
+}
+sub {
+	vertical-align: sub;
+}
+p, ul, ol, dl, table, fieldset, blockquote, pre, code {
+	margin-bottom: 20px;
+}
+/* Basic size
+---------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 0.6em;
+	font-weight: normal;
+	line-height: 1em;
+}
+h1 {
+	font-size: 36px;
+}
+h2 {
+	font-size: 30px;
+}
+h3 {
+	font-size: 24px;
+}
+h4 {
+	font-size: 18px;
+}
+h5 {
+	font-size: 14px;
+}
+h6 {
+	font-size: 12px;
+}
+h1 .subTitle, h2 .subTitle, h3 .subTitle, h4 .subTitle, h5 .subTitle, h6 .subTitle {
+	display: block;
+	color: #999;
+	font-size: 0.65em;
+	margin: 0;
+}
+/* Basic lists
+---------------------------------------------------------- */
+ul {
+	margin-left: 1.5em;
+	list-style-type: disc;
+}
+ul li {
+	margin-left: .85em;
+}
+ul ul {
+	list-style-type: square;
+}
+ul ul ul {
+	list-style-type: circle;
+}
+ol {
+	margin-left: 2.35em;
+	list-style-position: outside;
+	list-style-type: decimal;
+}
+dt {
+	margin-top: .8em;
+	margin-bottom: .4em;
+	font-weight: bold;
+}
+ol ol, ul ol {
+	margin-left: 2.5em;
+}
+ul ol, ol ul, ol ol, ul ul {
+	margin-bottom: 0;
+}
+/* Link style
+---------------------------------------------------------- */
+a:link, a:visited, a:hover, a:active, a:focus {
+	color:#666;
+	outline: 0 none;
+	text-decoration: none;
+}
+/* Non-semantic helper classes
+---------------------------------------------------------- */
+.center {
+	text-align: center;
+}
+.hidden {
+	display: none;
+	visibility: hidden;
+}
+.invisible {
+	visibility: hidden;
+}
+.alignright {
+	float: right;
+}
+.alignleft {
+	float: left;
+}
+.aligncenter {
+	margin-left:auto;
+	margin-right:auto;
+}
+.clearboth{
+	clear: both;
+	display: block;
+	font-size: 0px;
+	height: 0px;
+	line-height: 0;
+	width: 100%;
+	overflow:hidden;
+}

@@ -1,0 +1,52 @@
+<?php
+/*
+Copy this file into your current active theme's directory to customize this template
+This template lists out your older albums
+*/
+$numAlbumPreviews = 50; // how many expanded album previews to show. all other albums will be reduced to a thumbnail
+$maxAlbums = 50; // max number of album thumbnails to show on the photo album's homepage
+if (count($albums)): ?>
+<div class="tt-older-posts albums">
+<h2><?php _e('Other Albums', 'tantan-flickr');?></h2>
+<ul class="album_photos">
+<?php for ($i=0;$i<$numAlbumPreviews;$i++):?>
+<?php  
+	if (!$albums) break;
+    $album = array_shift($albums); 
+    $primaryPhoto = $flickr->getPhotoSizes($album['primary']); 
+	echo '<li class="album_photo">';
+	echo '<div class="image_styled album_photo_image">';
+	echo '<span class="image_frame" style="width:292px;height:180px"><a class="image_icon_zoom" href="album/'.$album['id'].'/'.$album['pagename'].'"><img width="292" height="180" src="'.THEME_INCLUDES.'/timthumb.php?src='.$primaryPhoto['Medium']['source'].'&amp;h=180&amp;w=292&amp;zc=1" /></a></span><img class="image_shadow" width="294" src="'.THEME_IMAGES.'/image_shadow.png"/>';
+	echo '</div>';
+	echo '<div class="album_photo_details">';
+	echo '<h3 class="album_photo_title"><a href="album/'.$album['id'].'/'.$album['pagename'].'">';
+	echo $album['title'];
+	echo '</a></h3>';
+	echo '<div class="album_photo_meta">';
+	echo '<p class="meta">'.sprintf(__('%d Photos', 'tantan-flickr'), $album['photos']).' | <a href="album/'.$album['id'].'/'.$album['pagename'].'" onclick="return openSlideShow(\''.$album['id'].'\')">'.__('View slideshow &gt;', 'tantan-flickr').'</a></p>';
+	echo '</div>';
+	echo '</div>';
+	echo '</li>';
+endfor; ?>
+</ul>
+</div>
+<?php endif; /*albums*/ ?>
+<?php if (count($albums)): ?>
+<div class="tt-older-posts albums albums-small">
+<?php
+$i = 0;
+foreach ($albums as $album):?>
+    <?php  $primaryPhoto = $flickr->getPhotoSizes($album['primary']); ?>
+    <div class="album">
+    <a href="album/<?php echo $album['id']?>/<?php echo $album['pagename']?>"><img class="highlight" 
+        src="<?php echo $primaryPhoto['Square']['source']?>" width="<?php echo $primaryPhoto['Square']['width']?>" height="<?php echo $primaryPhoto['Square']['height']?>" alt="" /></a><br />
+    <h5><?php echo $album['title'];?></h5>
+    </div>
+<?php 
+if ($i++ > $maxAlbums) break;
+endforeach; ?>
+</div>
+<?php endif; /*albums*/ ?>
+<?php if (count($albums) > $maxAlbums): ?>
+	<a href="./?view=all" class="all-albums"><?php printf(__('View all %d albums &gt;', 'tantan-flickr'), $numAlbums);?></a>
+<?php endif ;?>
